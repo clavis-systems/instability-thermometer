@@ -5,7 +5,7 @@
 > **Status (22 October 2026):** phase 1 is finished and **inconclusive**. Phase 1b (the long horizon) is finished:
 > by its frozen rule the prediction **holds at steps 80 and 150**, but only with the measure that does not use the
 > weights and with 6 runs, so I read it as a hint, not a confirmation. Phase 2 (other model families) is frozen and
-> has not run yet.
+> started on 22 October: the first family stopped at a gate (see "What comes next").
 
 ## The question
 
@@ -155,6 +155,10 @@ hint.
   at step 40. **After** seeing phase 1 and **before** any phase-2 data, I moved it to step 10, with step 5 as fallback,
   because that is where the measure still works (`PREMESSA_FASE2_MODIFICA*.md`). I froze this on 22 October, after
   phase 1b and before any phase-2 run (`FASE2_CONGELATA.txt`).
+  - **First family, 22 October:** Qwen2.5-0.5B stopped at gate G1, as the rules say. Its step-0 solve rate was 1.9%
+    (8 of 416 answers), below the 2% floor (`risultati/q05_kaggle_A2/`). The one fix allowed by the rules, written
+    before the data, is Countdown with 3 numbers; I have not decided yet. The next family, OLMo-2-1B, started the same
+    day.
   - Qwen2.5-1.5B is out of that verdict, because I have already seen its step-10 value.
   - I call the test confirmatory on the three new families. Codex argued it should be called exploratory; its
     objection is written next to my answer.
@@ -193,8 +197,10 @@ publish, so I publish the files and the list of commits (`PROVENANCE.md`) instea
 - **Order of events:** the runs notebook as it was launched (`kaggle/push_B/fase1_B_corse.ipynb`) contains the hashes
   of the prediction. The notebook could only check the prediction against hashes that existed before it ran.
 - **Third-party timestamps:** the Kaggle notebooks (prediction, runs, phase 1b) keep their versions with server
-  times: `termometro-fase-1-previsione`, `termometro-fase-1-corse` and `termometro-fase-1b` on my Kaggle
-  account. I will add the links here when they are public.
+  times: [prediction](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-1-previsione),
+  [runs](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-1-corse) and
+  [phase 1b](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-1b). The frozen code they read is the Kaggle dataset
+  [termometro-codice-congelato](https://www.kaggle.com/datasets/emanuelerizzan/termometro-codice-congelato).
 
 ## Files
 
@@ -235,9 +241,10 @@ python fase1b.py analyze risultati/q15_kaggle/q15 risultati/q15_kaggle_C/q15/pre
 This gives the same `analisi_fase1b.json` and `RAPPORTO_FASE1B.md` as in `risultati/q15_kaggle_C/q15/` (checked on
 22 October).
 
-**To redo the runs** you need a GPU and the warm start. The LoRA weights are not in this repository; `termometro.py
-sft` trains them again from `sft_countdown.jsonl`, but my warm start was trained at home in bf16 and will not be
-bit-identical.
+**To redo the runs** you need a GPU and the warm start. The LoRA weights of my warm start are not in this repository,
+but they are on Kaggle: [termometro-partenza-q15](https://www.kaggle.com/datasets/emanuelerizzan/termometro-partenza-q15) (the notebooks
+check their SHA-256). `termometro.py sft` trains a new one from `sft_countdown.jsonl`, but mine was trained at home in
+bf16 and a new one will not be bit-identical.
 
 ## License
 

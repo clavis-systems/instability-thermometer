@@ -2,7 +2,7 @@
 
 This work was done in a private git repository. Its commit metadata contains a personal e-mail address, so
 the history is not published. Below is every commit of that repository that touched this folder, oldest first
-(59 commits, up to `2c00993`). Commit dates are written by the author's computer: they are a record,
+(63 commits, up to `1a43d14`). Commit dates are written by the author's computer: they are a record,
 not a proof. The checks that do not depend on trusting me are the content hashes and Kaggle's own timestamps
 (see README.md, "Provenance"). Commit messages are in Italian; `[claude]` marks commits made by the AI agent.
 
@@ -67,3 +67,7 @@ not a proof. The checks that do not depend on trusting me are the content hashes
 | `4a30469` | 2026-10-22T18:32:13+02:00 | [claude] termometro fase 2: CONGELAMENTO della fase 2 corta (FASE2_CONGELATA.txt, 17 file con sha256) dopo la 1b e prima di ogni corsa, con l'OK di Emanuele del 22/10 |
 | `d7b2a14` | 2026-10-22T18:32:39+02:00 | [claude] termometro: README con la fase 2 congelata (22/10, FASE2_CONGELATA.txt) |
 | `2c00993` | 2026-10-22T18:33:23+02:00 | [claude] termometro: README senza segnaposto (nomi dei notebook Kaggle, link quando saranno pubblici) |
+| `7486337` | 2026-10-22T18:39:06+02:00 | [claude] termometro fase 2: notebook A2 di q05 come lanciato su Kaggle il 22/10 (identico al congelato), dopo il congelamento 4a30469 |
+| `cb4df78` | 2026-10-22T18:40:24+02:00 | [claude] termometro: bozza della nota agli autori aggiornata con la 1b, la fase 2 congelata e il link (non inviata) |
+| `80b1ad5` | 2026-10-22T19:18:35+02:00 | [claude] termometro fase 2: q05 fermata al cancello G1 (riuscita al passo 0 1,92% < 2%, 8/416), come da regola; lanciato A2 di OLMo-2-1B (identico al congelato) |
+| `1a43d14` | 2026-10-22T19:20:47+02:00 | [claude] termometro: README con i link pubblici di Kaggle (3 notebook, codice congelato, partenza LoRA) e la prima famiglia della fase 2 fermata a G1 |

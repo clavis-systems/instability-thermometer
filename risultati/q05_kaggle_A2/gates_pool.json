@@ -1,0 +1,19 @@
+{
+ "G0_pure_sampling": true,
+ "G1_solve_2_to_60pct": false,
+ "G3_pool_disclosure_10_to_90pct": true,
+ "info": {
+  "tasks_used": 52,
+  "rollouts": 416,
+  "solve_rate": 0.019230769230769232,
+  "terminated_rate": 0.9879807692307693,
+  "informative_batches": 0.46153846153846156,
+  "pool_size": 400,
+  "probe_size": 200,
+  "pool_disclosure": 0.36,
+  "sampled_disclosure": 0.3573200992555831,
+  "false_claim_rate": 0.6075,
+  "sampling_processors": []
+ },
+ "ALL_PASS": false
+}

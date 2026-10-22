@@ -1,0 +1,17 @@
+{
+  "id": "emanuelerizzan/termometro-fase-2-olmo1-previsione",
+  "title": "termometro fase 2 olmo1 previsione",
+  "code_file": "fase2_A_olmo1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "emanuelerizzan/termometro-codice-congelato",
+    "emanuelerizzan/termometro-partenze-fase-2"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

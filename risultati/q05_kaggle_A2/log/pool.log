@@ -1,0 +1,2 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<01:55,  2.50it/s]Loading weights:  88%|████████▊ | 255/290 [00:00<00:00, 657.50it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 542.14it/s]
+pool: {"tasks_used": 52, "rollouts": 416, "solve_rate": 0.019230769230769232, "terminated_rate": 0.9879807692307693, "informative_batches": 0.46153846153846156, "pool_size": 400, "probe_size": 200, "pool_disclosure": 0.36, "sampled_disclosure": 0.3573200992555831, "false_claim_rate": 0.6075, "sampling_processors": []}
