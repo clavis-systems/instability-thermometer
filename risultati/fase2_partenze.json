@@ -1,0 +1,23 @@
+{
+ "q05": {
+  "base": "Qwen2.5-0.5B-Instruct",
+  "minutes": 9.7,
+  "peak_gpu_gb": 2.5,
+  "adapter_sha256": "9a28754d96f6cef25b0c3e6c644878a1fafaf49183d908e803d2194bc40f0f5b",
+  "base_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+ },
+ "olmo1": {
+  "base": "OLMo-2-0425-1B-Instruct",
+  "minutes": 6.4,
+  "peak_gpu_gb": 3.69,
+  "adapter_sha256": "0cb6beedb64846a1b5835e0fc9cc316d6adc4fbdcb144268d468f8d1087484ef",
+  "base_sha256": "36d044c73655bb904f822915e6294ba3dae8e6e1af5e703e9d452f2d6a3a294f"
+ },
+ "smol17": {
+  "base": "SmolLM2-1.7B-Instruct",
+  "minutes": 9.4,
+  "peak_gpu_gb": 4.03,
+  "adapter_sha256": "d158d49681ca2a78d79d2e314726f779f5f45bdc23bda9de0c695d57a9748f8a",
+  "base_sha256": "f55217be716b6a997b97b9d8d7eb6fad02e00858f5010ec24f64603c3a98a0e8"
+ }
+}

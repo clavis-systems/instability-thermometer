@@ -1,0 +1,51 @@
+Termometro dell'instabilità: PREMESSA.md e PREMESSA_FASE2.md CONGELATE il 20/10/2026 10:47 (ora italiana).
+Il congelamento è il commit che aggiunge questo file (genitore a7656b3). Dopo, ogni cambiamento è una deviazione
+datata in fondo alla PREMESSA.
+
+Autorizzazione: OK condizionato di Emanuele del 19/10 ("opzione a": se G5 passa, congela e lancia la fase 1);
+decisioni del 20/10: G1 al 2% (B'), H6 il secondo comportamento, fase 1 su Kaggle in float32 ("sono d'accordo col
+tuo piano procediamo").
+
+Prove prima del congelamento (nessun dato dell'esperimento):
+- G5 pilota (seme 8): accordo 100/100 con un etichettatore nuovo (tutte code della frase dell'SFT).
+- Rilevatore di H6 (seme 6060): accordo 99/100 (soglia 90%).
+- Prova a vuoto sul processore (prova_fumo.py) sul codice finale: passata; differenze finite di D_seq, D_tf e
+  D_false; previsione principale identica al bit a prima di H6.
+- Lotti contro "una alla volta": 0,47 nats in bf16 a casa; 0,0001 in float32 su T4 (Kaggle, 20/10).
+- Taratura: compiti più facili al massimo 8,6%; SFT 3/4/6 epoche 1,3/3,4/5,2% (partenza tenuta a 2 epoche).
+- Revisioni indipendenti: idea ("refine", fatti corretti nel testo), codice ("pronto dopo piccole correzioni",
+  correzioni fatte in a7656b3).
+
+Partenza: adapter_model.safetensors sha256 c0506a7111c5c01f0c0ada9cb8e4a8d0c78e2bd91452350ac608f80427111fe6
+Modello base: Qwen2.5-1.5B-Instruct, model.safetensors sha256 dd924a11…c6d3ee (uguale a casa e su Kaggle).
+
+File congelati (sha256 del contenuto in git, a capo LF):
+1d5d71dcc6ccd28ab46a335349ecc74742ca4b81f4fcad212f8d134f70f1f13e  .gitattributes
+7f310c035e2ff28c1078071b99a305b40acf885c07d393660cd058a7bef7fa59  PREMESSA.md
+0dee95a35bb623f78f50b2702a544f367b6888538b374cf68e06118a084145ee  PREMESSA_FASE2.md
+688d4f93693c75418316c62e7c6d0468fb7bc809f25461fa35fc885358613336  SPEC_G5_ETICHETTE.md
+d9d5edbb3d37f472e918580b8a55dee8ad0066e3173636131c9a5f5342fd8d02  SPEC_H6_ETICHETTE.md
+0e8f7234ca68bdf2faf51c1f16ac8b2c67191d1d2c9bed6f9c808028c2ca5117  analisi_fase1.py
+99164309dc7328c0cfe3bba97bc337183d30942a4ec61923f3ff2711197fda82  analisi_fase2.py
+318b58d15adf6d31840b9fa93ea0d947233c372af47e8c94735caff8b824d29a  catena_fase1.sh
+137f9888edf8cc678563c6e6916187aa4f74a5a781cb00eb415978d738d8b190  catena_fase2.sh
+bf339d11d2bf976893466bc9932e48c966f0d3391b47e367e2e30a6feded08ff  catena_pre_congelamento.sh
+ecb3d77b4cf4c94c5561f03d850a4990e64884af7c612b4cfe3df34566ca2aea  confronta_g5.py
+a32bc2d85c67024bb2193b1bf078116fba0afb26d9ce5ff0a45e1998340c7c6a  countdown.py
+a624736496708215d386bb403067c49ac46509c0ba67fda77dc60587871cccad  estrai_code_passo40.py
+2acf419c9ce00573e7a1e4f1bb24b4e67b846f6de0c6765be6be263d4a6cb013  estrai_false.py
+97dd6540ba50718d0dc7e2eb91e86873a2df52b71b2478f09a1a09100b542068  kaggle/crea_notebook_fase1.py
+27a73480588d4ce8f99b4a8c631f9d0b108f2d30484212fc15021e45c28cafd4  kaggle/fase1_A_previsione.ipynb
+1ebf0282e1f6db7c4dc528540fd5ef90e5d76761aa0f4d762434fbb3aac5c271  kaggle/fase1_B_corse.ipynb
+32935beb7e58ecf5f8d336bee6d26fafce938b7a5af55a1a2a3103163e79d221  kaggle/termometro_velocita.ipynb
+95923022360ee4e9ec9eb01795f18353db1f716ab893a2d3014d2343323d015e  kaggle/velocita.py
+f857d8481c49612e2d6143c0c48241b5e5b23d4529cf8a98e47bcd9e426f07e5  prova_fumo.py
+618fea199f085a7e06cb1842bfa73d8e9f14c33538c9224754bd573c4c429c16  prova_gpu.py
+28630b5a877828956ca191c78532eac39b8b5cf90c545f76f8e6237ddb9da33c  prova_pre_congelamento.py
+47ef414bd2a979b61ad3fe7cf48291a59cc112cede601d42afd558d70cc1cf0c  rapporto_fase1.py
+2cf284ca6846377db33490757fa025e388c71698ee5f52ece7e898db6c15574b  risultati/.gitignore
+9a923667ba54121b38d7c6100de8eac7f9cfa041f190b0c359525595f977b8e6  sft_countdown.jsonl
+e7032df8d0db9bb0298735f44a820ecadda65a51cd55fb92908a5106520e40bd  sveglio.py
+7326d1a0b85c566be5e6465ecca1ad2616f34d882fd9df7b35819dd44ca85c5d  taratura/taratura.py
+2075148a38de90545c863f94386b8bef85fb12b0e6f0fdcf072aae2810cc6617  taratura/taratura_sft.py
+a74ea551a1e6ccf5791d918473982198581db8391c8256ed31460450c64a79d7  termometro.py

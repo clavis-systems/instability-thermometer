@@ -1,0 +1,15 @@
+Sei un revisore indipendente di uno studio pre-registrato. Rispondi in italiano. Sei in sola lettura: non modificare nessun file.
+
+Cartella di lavoro: strumenti/termometro.
+
+Contesto: la fase 1 (PREMESSA.md, congelata) è finita NON CONCLUSIVO perché la stima per importanza di D_seq è collassata (ESS mediana 15 al passo 40). La fase 2 (PREMESSA_FASE2.md, congelata prima della fase 1) ripete la stessa prova al passo 40 su tre famiglie nuove. Il file PREMESSA_FASE2_MODIFICA_BOZZA.md propone, DOPO aver visto la fase 1 e PRIMA di qualunque dato della fase 2, di spostare il test al passo 10 (riserva al passo 5), con corse da 20 passi. I numeri della fase 1 ai passi 5-40 sono in risultati/q15_kaggle_B/controllo_ricalcolo/RAPPORTO.md e risultati/q15_kaggle_B/q15/run_s1*.json; la previsione in risultati/q15_kaggle/q15/thermo_s1.json.
+
+Cosa ti chiedo:
+1. La modifica è onesta? Dichiara bene cosa è stato visto dopo i dati? Il problema dei "sentieri che si biforcano" (la scelta del passo 10 è informata dalla fase 1, dove R al passo 10 era 0,78) è gestito a sufficienza escludendo Qwen2.5-1.5B dal verdetto? Proponi correzioni se no.
+2. La regola di riserva al passo 5 è ben definita e non lascia margini di scelta dopo i dati?
+3. Il codice congelato supporta davvero quanto scritto senza cambiare termometro.py? Controlla: run(..., T) in termometro.py (argomento T dalla riga di comando, passi di D_seq/D_tf/checkpoint, code dei passi T-4..T), la previsione replay.pred_SD.lin_seq a 10 (il replay va fino a SCHED[-1]=40: il valore a 10 resta quello del codice congelato?), countdown.rl_tasks (i compiti dei primi 20 passi sono gli stessi delle corse da 40?).
+4. Le stime di costo tornano con i tempi per passo (47 s senza misure, 178 s con sola D_tf, 333 s con D_seq e D_tf)?
+5. Manca qualcosa di importante (potenza al passo 10, pavimento, H6, confronti multipli, rischio che l'ESS crolli prima nelle famiglie piccole, cosa si riporta se una famiglia usa il passo 5 e un'altra il 10)?
+6. L'alternativa B è descritta in modo corretto?
+
+Consegna: al massimo 500 parole. Una riga di verdetto (PRONTA / PRONTA DOPO CORREZIONI / NON PRONTA), poi i problemi in ordine di gravità con la correzione proposta, e cosa non hai potuto verificare.

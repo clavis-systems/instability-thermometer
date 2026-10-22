@@ -1,0 +1,65 @@
+{
+ "n_runs": 6,
+ "T_max": 150,
+ "power_note": "with 6 runs the 95% CI of an SD is 0.62-2.45 times",
+ "H1b_T80": {
+  "measured_SD_D_seq": 0.09941260630087134,
+  "corrected": 0.09941260628794865,
+  "predicted": 0.1453158141674599,
+  "R": 0.684114160991363,
+  "median_ESS": 13.147111352274969,
+  "verdict": "NON CONCLUSIVO",
+  "D_samp_SD_corrected": 0.093973229625399,
+  "D_samp_noise_var": 0.000704017188049824,
+  "R_samp": 0.6466827451904552,
+  "verdict_samp": "PROMOSSO",
+  "verdict_used": "PROMOSSO",
+  "measure_used": "D_samp",
+  "descriptive": {
+   "D_tf": {
+    "R": 0.5871144619046117
+   },
+   "D_false": {
+    "R": 0.7880613527640293
+   }
+  },
+  "solve_window_mean": 0.06510416666666667
+ },
+ "H1b_T150": {
+  "measured_SD_D_seq": 0.0014973747427538704,
+  "corrected": 0.0014973738847997948,
+  "predicted": 0.1884332931224554,
+  "R": 0.007946440143285667,
+  "median_ESS": 12.650223651594771,
+  "verdict": "NON CONCLUSIVO",
+  "D_samp_SD_corrected": 0.28034063828508493,
+  "D_samp_noise_var": 0.0011753487953214462,
+  "R_samp": 1.4877447272701567,
+  "verdict_samp": "PROMOSSO",
+  "verdict_used": "PROMOSSO",
+  "measure_used": "D_samp",
+  "descriptive": {
+   "D_tf": {
+    "R": 4.089832849079776
+   },
+   "D_false": {
+    "R": 0.011975436352531395
+   }
+  },
+  "solve_window_mean": 0.1125
+ },
+ "holds_up_to": 150,
+ "H2b": {
+  "T_used": [],
+  "note": "fewer than 3 steps with median ESS >= 100: not computable"
+ },
+ "files_used": [
+  "run_s201.json",
+  "run_s202.json",
+  "run_s203.json",
+  "run_s204.json",
+  "run_s205.json",
+  "run_s206.json"
+ ],
+ "files_incomplete": []
+}

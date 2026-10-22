@@ -1,0 +1,6 @@
+# congelamento del 20/10/2026 10:47, file uguali al commit che aggiunge CONGELATA.txt (genitore a7656b3)
+0e8f7234ca68bdf2faf51c1f16ac8b2c67191d1d2c9bed6f9c808028c2ca5117 analisi_fase1.py
+a32bc2d85c67024bb2193b1bf078116fba0afb26d9ce5ff0a45e1998340c7c6a countdown.py
+a624736496708215d386bb403067c49ac46509c0ba67fda77dc60587871cccad estrai_code_passo40.py
+47ef414bd2a979b61ad3fe7cf48291a59cc112cede601d42afd558d70cc1cf0c rapporto_fase1.py
+a74ea551a1e6ccf5791d918473982198581db8391c8256ed31460450c64a79d7 termometro.py

@@ -1,0 +1,19 @@
+{
+  "id": "emanuelerizzan/termometro-fase-1-corse",
+  "title": "termometro fase 1 corse",
+  "code_file": "fase1_B_corse.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "emanuelerizzan/termometro-codice-congelato",
+    "emanuelerizzan/termometro-partenza-q15"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "emanuelerizzan/termometro-fase-1-previsione"
+  ]
+}

@@ -1,0 +1,232 @@
+[
+ {
+  "T": 80,
+  "grandezza": "SD D_seq grezza",
+  "mio": 0.09941260630087134,
+  "ufficiale": 0.09941260630087134,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "SD D_seq con pavimento",
+  "mio": 0.09941260628794865,
+  "ufficiale": 0.09941260628794865,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "SD prevista",
+  "mio": 0.1453158141674599,
+  "ufficiale": 0.1453158141674599,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "R (D_seq)",
+  "mio": 0.684114160991363,
+  "ufficiale": 0.684114160991363,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "ESS mediana",
+  "mio": 13.147111352274969,
+  "ufficiale": 13.147111352274969,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "rumore D_samp (varianza)",
+  "mio": 0.0007040171880498241,
+  "ufficiale": 0.000704017188049824,
+  "diff_rel": 1.5400223046951722e-16
+ },
+ {
+  "T": 80,
+  "grandezza": "SD D_samp corretta [media semplice]",
+  "mio": 0.09077763717078331,
+  "ufficiale": 0.093973229625399,
+  "diff_rel": -0.03400534883555803
+ },
+ {
+  "T": 80,
+  "grandezza": "SD D_samp corretta [media pesata n_fail]",
+  "mio": 0.093973229625399,
+  "ufficiale": 0.093973229625399,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "R_samp [media semplice]",
+  "mio": 0.6246920728543175,
+  "ufficiale": 0.6466827451904552,
+  "diff_rel": -0.03400534883555803
+ },
+ {
+  "T": 80,
+  "grandezza": "R_samp [media pesata n_fail]",
+  "mio": 0.6466827451904552,
+  "ufficiale": 0.6466827451904552,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "R D_tf descrittivo",
+  "mio": 0.5871144619046117,
+  "ufficiale": 0.5871144619046117,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "R D_false descrittivo",
+  "mio": 0.7880613527640293,
+  "ufficiale": 0.7880613527640293,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "riuscita media finestra",
+  "mio": 0.06510416666666667,
+  "ufficiale": 0.06510416666666667,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 80,
+  "grandezza": "verdetto D_seq",
+  "mio": "NON CONCLUSIVO",
+  "ufficiale": "NON CONCLUSIVO"
+ },
+ {
+  "T": 80,
+  "grandezza": "verdetto D_samp",
+  "mio": "PROMOSSO",
+  "ufficiale": "PROMOSSO"
+ },
+ {
+  "T": 80,
+  "grandezza": "verdetto usato",
+  "mio": "PROMOSSO",
+  "ufficiale": "PROMOSSO"
+ },
+ {
+  "T": 150,
+  "grandezza": "SD D_seq grezza",
+  "mio": 0.0014973747427538704,
+  "ufficiale": 0.0014973747427538704,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "SD D_seq con pavimento",
+  "mio": 0.0014973738847997948,
+  "ufficiale": 0.0014973738847997948,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "SD prevista",
+  "mio": 0.1884332931224554,
+  "ufficiale": 0.1884332931224554,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "R (D_seq)",
+  "mio": 0.007946440143285667,
+  "ufficiale": 0.007946440143285667,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "ESS mediana",
+  "mio": 12.650223651594771,
+  "ufficiale": 12.650223651594771,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "rumore D_samp (varianza)",
+  "mio": 0.0011753487953214462,
+  "ufficiale": 0.0011753487953214462,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "SD D_samp corretta [media semplice]",
+  "mio": 0.28801041633628166,
+  "ufficiale": 0.28034063828508493,
+  "diff_rel": 0.027358780725173185
+ },
+ {
+  "T": 150,
+  "grandezza": "SD D_samp corretta [media pesata n_fail]",
+  "mio": 0.28034063828508493,
+  "ufficiale": 0.28034063828508493,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "R_samp [media semplice]",
+  "mio": 1.5284476090385737,
+  "ufficiale": 1.4877447272701567,
+  "diff_rel": 0.027358780725173296
+ },
+ {
+  "T": 150,
+  "grandezza": "R_samp [media pesata n_fail]",
+  "mio": 1.4877447272701567,
+  "ufficiale": 1.4877447272701567,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "R D_tf descrittivo",
+  "mio": 4.089832849079776,
+  "ufficiale": 4.089832849079776,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "R D_false descrittivo",
+  "mio": 0.011975436352531395,
+  "ufficiale": 0.011975436352531395,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "riuscita media finestra",
+  "mio": 0.1125,
+  "ufficiale": 0.1125,
+  "diff_rel": 0.0
+ },
+ {
+  "T": 150,
+  "grandezza": "verdetto D_seq",
+  "mio": "NON CONCLUSIVO",
+  "ufficiale": "NON CONCLUSIVO"
+ },
+ {
+  "T": 150,
+  "grandezza": "verdetto D_samp",
+  "mio": "PROMOSSO",
+  "ufficiale": "PROMOSSO"
+ },
+ {
+  "T": 150,
+  "grandezza": "verdetto usato",
+  "mio": "PROMOSSO",
+  "ufficiale": "PROMOSSO"
+ },
+ {
+  "T": null,
+  "grandezza": "fin dove regge",
+  "mio": 150,
+  "ufficiale": 150
+ },
+ {
+  "T": null,
+  "grandezza": "H2b",
+  "mio": "non calcolabile (meno di 3 passi con ESS mediana >= 100)",
+  "ufficiale": "fewer than 3 steps with median ESS >= 100: not computable"
+ }
+]

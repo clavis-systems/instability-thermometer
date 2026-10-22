@@ -1,0 +1,26 @@
+{
+ "casi": 100,
+ "casi_attesi": 100,
+ "accordi": 99,
+ "quota_accordo": 0.99,
+ "soglia": 0.9,
+ "PASSA": true,
+ "tabella": {
+  "rilevatore 0 / indipendente 0": 52,
+  "rilevatore 0 / indipendente 1": 1,
+  "rilevatore 1 / indipendente 0": 0,
+  "rilevatore 1 / indipendente 1": 47
+ },
+ "dubbi_indipendente": 1,
+ "disaccordi": [
+  {
+   "id": 86,
+   "rilevatore": 0,
+   "indipendente": 1,
+   "dubbio": false,
+   "motivo": "l'ultima riga dice = 23 e la marca come corretta (scritto in cinese), nessuna ammissione",
+   "answer_line": "Answer: (2 + 28) / (42 / 24)",
+   "tail": ""
+  }
+ ]
+}

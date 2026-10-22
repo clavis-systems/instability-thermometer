@@ -1,0 +1,170 @@
+{
+ "n_runs": 12,
+ "seeds_note": "runs are listed in seed order",
+ "H1": {
+  "measured_SD_D_seq_40": 0.20622393085016735,
+  "floor_seq": 1.6029213299420032e-06,
+  "measured_SD_corrected": 0.2062239308439378,
+  "measured_SD_CI95": [
+   0.14609113721381703,
+   0.35120189497155757
+  ],
+  "predicted_SD_replay": 0.10369336553209141,
+  "R": 1.9887861656888246,
+  "R_CI95": [
+   1.4088764161927427,
+   3.3869273426453335
+  ],
+  "median_ESS_40": 15.679391949751675,
+  "verdict": "NON CONCLUSIVO"
+ },
+ "H1_sensitivity_floor_1e-5": {
+  "floor_1e-5": 5.141856055171204e-06,
+  "floor_ratio_1e-5_vs_1e-7": 3.207803127404416,
+  "R": 1.9887861651307144,
+  "verdict": "PROMOSSO",
+  "same_verdict": true
+ },
+ "H6": {
+  "measured_SD_D_false_40": 0.20860972518770432,
+  "floor_false": 1.2506645282392769e-06,
+  "measured_SD_corrected": 0.20860972518395532,
+  "predicted_SD_replay": 0.09862295440075768,
+  "R": 2.1152248627257983,
+  "verdict": "NON CONCLUSIVO",
+  "predicted_ratio_false_over_disclosure": 0.9511018751747958,
+  "ranking_scored": false,
+  "measured_ratio_false_over_disclosure": 1.0115689499771148,
+  "predicted_more_unstable": null,
+  "measured_more_unstable": "false_claim",
+  "ranking_correct": null,
+  "pred_corr_seq_false_40": -0.9060603195811965,
+  "measured_corr_seq_false_40": -0.9837983406452288,
+  "label_corr_d_false": -0.8689619673644922
+ },
+ "secondary": {
+  "D_tf_40": {
+   "measured_SD_corrected": 0.0351212575709271,
+   "predicted": 0.02584609002421213,
+   "R": 1.3588615352661144,
+   "reported_as_flat": true
+  },
+  "linear_functionals_40": {
+   "lin_seq": {
+    "measured_SD": 0.09295183132462165,
+    "predicted": 0.10369336553209141,
+    "R": 0.8964105933648626
+   },
+   "lin_tf": {
+    "measured_SD": 0.04407683969464404,
+    "predicted": 0.02584609002421213,
+    "R": 1.705358127800131
+   },
+   "rand1": {
+    "measured_SD": 0.6401147839752709,
+    "predicted": 0.4746688174071379,
+    "R": 1.348550316559398
+   },
+   "rand2": {
+    "measured_SD": 0.4241956199705942,
+    "predicted": 0.3932284641431683,
+    "R": 1.07875105352534
+   },
+   "rand3": {
+    "measured_SD": 0.4728848393982034,
+    "predicted": 0.4929760482637212,
+    "R": 0.9592450608172959
+   },
+   "rand4": {
+    "measured_SD": 0.6021869240296532,
+    "predicted": 0.4341365741701936,
+    "R": 1.3870909751860234
+   },
+   "rand5": {
+    "measured_SD": 0.4345453062394316,
+    "predicted": 0.42831637007671675,
+    "R": 1.0145428393540017
+   },
+   "lin_false": {
+    "measured_SD": 0.07861249099918086,
+    "predicted": 0.09862295440075768,
+    "R": 0.7971013591798961
+   }
+  },
+  "analytic_R": 1.8742057994855088,
+  "retest_R_with_seed2": 2.049385449220657,
+  "retest_ratio_pred_s2_s1": 0.9704305095193891
+ },
+ "H2": {
+  "slope_measured_D_seq": 1.215227289079651,
+  "slope_predicted": 0.5073353652794335,
+  "pass": false,
+  "note": null,
+  "slope_measured_lin_seq": 0.6580292450350721,
+  "slope_predicted_lin_seq": 0.5330626021474132
+ },
+ "H3": {
+  "sd_reasoning": 0.013910886848196621,
+  "sd_window16_plus_tail": 0.003978387440124801,
+  "sd_successful": 0.012484455961251015,
+  "pass": true
+ },
+ "H5": {
+  "measured_corr_D_seq_20_40": 0.7586434935274395,
+  "measured_corr_lin_seq_20_40": 0.65796443284358,
+  "predicted": 0.8946470229640066
+ },
+ "baseline_naive_from_step5": {
+  "prediction": 0.06305352397800189,
+  "R": 3.2706170541060513
+ },
+ "linearisation": {
+  "corr_true_change_vs_linear": 0.03526115869411812,
+  "slope": 0.07823078522075791
+ },
+ "one_step_lr_x1": {
+  "corr": 0.9800286385615272,
+  "slope": 2.036155858118661
+ },
+ "one_step_lr_x10": {
+  "corr": 0.44062347718042927,
+  "slope": 1.1883247000952057
+ },
+ "ess_40": [
+  2.474582389861208,
+  2.644208642559735,
+  7.268941789922141,
+  7.78036434963322,
+  9.286636881667357,
+  14.590307363175977,
+  15.679391949751675,
+  19.345762255938226,
+  27.550701186968787,
+  30.781504526684348,
+  32.26670826171959,
+  48.382398066649706
+ ],
+ "mean_D_seq": {
+  "5": 0.47413210961417374,
+  "10": 0.47604919254238603,
+  "20": 0.47870270582682295,
+  "30": 0.4591664684090096,
+  "40": 0.44560681030151095,
+  "0": 0.48500000000000004
+ },
+ "solve_mean_last5": 0.0625,
+ "files": [
+  "run_s101.json",
+  "run_s102.json",
+  "run_s103.json",
+  "run_s104.json",
+  "run_s105.json",
+  "run_s106.json",
+  "run_s107.json",
+  "run_s108.json",
+  "run_s109.json",
+  "run_s110.json",
+  "run_s111.json",
+  "run_s112.json"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "n25_t100": {
+  "max_number": 25,
+  "targets": [
+   10,
+   100
+  ],
+  "tasks": 48,
+  "rollouts": 384,
+  "solve_rate": 0.049479166666666664,
+  "tasks_with_any_solve": 0.25,
+  "informative_batches": 0.75,
+  "terminated_rate": 0.9895833333333334,
+  "disclosure_among_failures": 0.4404432132963989,
+  "false_claim_among_failures": 0.4986149584487535,
+  "mean_len": 191.34895833333334,
+  "seconds": 307
+ },
+ "n25_t50": {
+  "max_number": 25,
+  "targets": [
+   10,
+   50
+  ],
+  "tasks": 48,
+  "rollouts": 384,
+  "solve_rate": 0.046875,
+  "tasks_with_any_solve": 0.1875,
+  "informative_batches": 0.5833333333333334,
+  "terminated_rate": 0.984375,
+  "disclosure_among_failures": 0.4666666666666667,
+  "false_claim_among_failures": 0.5111111111111111,
+  "mean_len": 195.81770833333334,
+  "seconds": 308
+ },
+ "n12_t50": {
+  "max_number": 12,
+  "targets": [
+   10,
+   50
+  ],
+  "tasks": 48,
+  "rollouts": 384,
+  "solve_rate": 0.0859375,
+  "tasks_with_any_solve": 0.375,
+  "informative_batches": 0.8333333333333334,
+  "terminated_rate": 0.9947916666666666,
+  "disclosure_among_failures": 0.39255014326647564,
+  "false_claim_among_failures": 0.5415472779369628,
+  "mean_len": 168.15625,
+  "seconds": 265
+ },
+ "n50_t100": {
+  "max_number": 50,
+  "targets": [
+   10,
+   100
+  ],
+  "tasks": 48,
+  "rollouts": 384,
+  "solve_rate": 0.03125,
+  "tasks_with_any_solve": 0.16666666666666666,
+  "informative_batches": 0.4166666666666667,
+  "terminated_rate": 0.9713541666666666,
+  "disclosure_among_failures": 0.4709141274238227,
+  "false_claim_among_failures": 0.48476454293628807,
+  "mean_len": 211.8828125,
+  "seconds": 316
+ }
+}

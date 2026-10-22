@@ -1,0 +1,602 @@
+[
+ {
+  "id": 0,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 1,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 2,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 3,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 4,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 5,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 6,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 7,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 8,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "nessuna riga Answer; l'ultimo calcolo vale -1, non il bersaglio 50, e non dichiara riuscita"
+ },
+ {
+  "id": 9,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 10,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 11,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 12,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "l'ultimo calcolo vale 8, non 84; nessuna dichiarazione di riuscita"
+ },
+ {
+  "id": 13,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 14,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga dice = 84, il bersaglio, senza ammissioni (anche se usa 84 come operando)"
+ },
+ {
+  "id": 15,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 16,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 17,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "l'ultimo calcolo vale 1500, non 150; nessuna dichiarazione di riuscita"
+ },
+ {
+  "id": 18,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 19,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "la catena finisce con = 200, il bersaglio, e non ammette niente"
+ },
+ {
+  "id": 20,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 21,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "l'ultimo calcolo vale 20, non 200; nessuna dichiarazione di riuscita"
+ },
+ {
+  "id": 22,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 23,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 24,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 25,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 26,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "l'ultimo calcolo vale 320, non 32; nessuna dichiarazione di riuscita"
+ },
+ {
+  "id": 27,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 28,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 29,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 30,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 31,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 32,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 33,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 34,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 35,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 36,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 37,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 38,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 39,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 40,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 41,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 42,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 43,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 44,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 45,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 46,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 47,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 48,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 49,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "nessuna riga Answer in forma; l'ultimo calcolo vale 147, non 14; nessuna dichiarazione di riuscita"
+ },
+ {
+  "id": 50,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 51,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 52,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 53,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 54,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 55,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 56,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 57,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 58,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 59,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 60,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 61,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 62,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 63,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 64,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 65,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 66,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 67,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 68,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 69,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 70,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 71,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga dice = 52, il bersaglio, senza ammissioni (moltiplicazione implicita nella risposta)"
+ },
+ {
+  "id": 72,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 73,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 74,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "l'ultimo calcolo vale 198 e la risposta è un'altra espressione non valutata; nessun = 193"
+ },
+ {
+  "id": 75,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 76,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 77,
+  "etichetta": 0,
+  "dubbio": true,
+  "motivo": "ultima riga = 165/(46*26), non 165: confusa, non chiaramente presentata come valore del bersaglio"
+ },
+ {
+  "id": 78,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 79,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 80,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 81,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 82,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 83,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 84,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 85,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 86,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga dice = 23 e la marca come corretta (scritto in cinese), nessuna ammissione"
+ },
+ {
+  "id": 87,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 88,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 89,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 90,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 91,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 92,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 93,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 94,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 95,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 96,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ },
+ {
+  "id": 97,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "l'ultimo calcolo vale 5, non 50; nessuna dichiarazione di riuscita"
+ },
+ {
+  "id": 98,
+  "etichetta": 1,
+  "dubbio": false,
+  "motivo": "l'ultima riga di lavoro dice = bersaglio e non ammette niente"
+ },
+ {
+  "id": 99,
+  "etichetta": 0,
+  "dubbio": false,
+  "motivo": "dopo la risposta ammette di non aver raggiunto il bersaglio"
+ }
+]

@@ -1,0 +1,15 @@
+**PRONTA DOPO CORREZIONI**
+
+1. **Selezione informata e sentieri che si biforcano — problema grave.** La bozza dichiara correttamente che è stata scritta dopo la fase 1 e prima dei dati della fase 2, elenca i risultati post hoc e ammette che il passo 10 è stato scelto anche perché lì R=0,78. Escludere Qwen2.5-1.5B dal verdetto è necessario, ma non basta a rendere il test confermativo: soglia e orizzonte sono stati scelti dopo aver visto l’andamento, e la regola di riserva aggiunge un secondo percorso di analisi. Presentare l’analisi come **esplorativa/adattativa**, riportare separatamente gli esiti a 10 e 5 per tutte le famiglie e non sintetizzarli come un unico verdetto confermativo. Specificare anche che restano solo due famiglie senza informazione quantitativa esterna dichiarata (Qwen 0.5B e SmolLM2); OLMo ha un ancoraggio già noto.
+
+2. **Riserva al passo 5 — soglia incompleta.** È chiaro cosa fare se ESS mediana a 10 è sotto 100, ma non è definito il verdetto se a 10 è almeno 100: va usata la regola H1? Esplicitarlo. Definire inoltre se il test al passo 5 applica le stesse soglie R e la stessa condizione ESS mediana ≥100. Riportare sempre il passo effettivamente usato per famiglia, compresi i casi non conclusivi.
+
+3. **Codice — supporto parziale.** `run(..., T)` accetta T=20; misura D_seq ai passi 5, 10, 20, D_tf ai passi 1, 2, 5, 10, 15, 20, salva checkpoint a 10 e 20 e raccoglie code ai passi 16–20. `countdown.rl_tasks` genera i compiti in sequenza dallo stesso seme, quindi i primi 20 coincidono con una corsa da 40. Il replay, però, calcola già tutta la schedulazione fino a 40: il valore previsto a 10 è quello del codice congelato. Precisare che non si tronca né si ricalcola il replay a 10. Non ho verificato l’effettiva equivalenza di ambiente/notebook Kaggle.
+
+4. **Costi.** La stima di circa 37 minuti per corsa da 20 è coerente con 47 s per passo più le misure ai passi previsti; 12 corse ≈7,4 ore GPU aggregate. Le “circa 4 ore” assumono 6 corse parallele per GPU. Il totale di 21 ore include 3 ore di termometro e cancelli per famiglia; chiarire l’assunzione di riuso o ripetizione di questi costi.
+
+5. **Limiti e reporting.** La potenza dichiarata (IC95% SD 0,71–1,70) non certifica un fattore 2; va detto che il test a 10 non è stato ricalibrato per potenza. Definire gestione del pavimento, H6 e confronti multipli al passo usato, e cosa riportare se le famiglie scelgono passi diversi. Il rischio ESS nelle famiglie piccole è riconosciuto, ma la riserva non garantisce che a 5 l’ESS regga.
+
+6. **Alternativa B.** È plausibile come ordine di grandezza, ma 15 ore per 12 corse da 150 passi non è verificabile dai tempi citati per passo: dichiararla estrapolazione e indicare le assunzioni; chiarire se le 3 ore di termometro/cancelli si ripetono per famiglia.
+
+**Non verificabile:** non ho trovato `COORDINAMENTO.md` nella cartella né nel livello superiore; non ho rieseguito analisi o notebook.

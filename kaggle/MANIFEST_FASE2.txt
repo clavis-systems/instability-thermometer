@@ -1,0 +1,3 @@
+# fase 2 corta: file uguali a git 878ccc5 (a capo LF); analisi_fase2.py uguale al congelamento 979d472
+b6c6f995e3b20a36a4171e753e8baf59aa351277335b445587309469b8940f9f fase2_corta.py
+99164309dc7328c0cfe3bba97bc337183d30942a4ec61923f3ff2711197fda82 analisi_fase2.py

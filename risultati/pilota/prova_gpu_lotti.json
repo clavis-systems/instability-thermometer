@@ -1,0 +1,12 @@
+{
+ "n_sequences": 16,
+ "seconds_generation_16x2": 23.9,
+ "seconds_batched_logprobs": 1.29,
+ "max_abs_diff_seq_logprob": 0.9283905029296875,
+ "mean_abs_diff": 0.46740061044692993,
+ "all_finite": true,
+ "route_max_abs_diff": 0.4400949478149414,
+ "solve_rate_16x2": 0.125,
+ "mean_len": 230.875,
+ "peak_gpu_gb": 4.442628860473633
+}

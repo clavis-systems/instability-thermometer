@@ -1,0 +1,16 @@
+Sei un revisore indipendente di uno studio pre-registrato. Rispondi in italiano. Sei in sola lettura: non modificare nessun file.
+
+Cartella di lavoro: strumenti/termometro (dentro questa cartella di progetto).
+
+Lo studio ("termometro dell'instabilità") prevede al passo 0 la dispersione tra 12 corse GRPO indipendenti della frequenza con cui un modello ammette di aver fallito (D_seq, stima per importanza autonormalizzata su un campione fisso di 400 fallimenti del passo 0), con un replay esatto di Adam sui gradienti del passo 0. La pre-registrazione è PREMESSA.md, congelata nel commit 979d472 (CONGELATA.txt). La previsione è in risultati/q15_kaggle/q15/thermo_s1.json (e thermo_s2.json, gates.json), messa su git (commit f6104eb) prima delle corse. Le 12 corse sono in risultati/q15_kaggle_B/q15/run_s101.json ... run_s112.json (una lista di 41 righe per corsa: passo 0..40; D_seq ed ess ai passi 5,10,20,30,40; D_tf ai passi 1,2,5,...,40; "lin" = 8 funzionali lineari a ogni passo; D_false ai passi di D_seq). L'analisi congelata è analisi_fase1.py; il suo risultato è risultati/q15_kaggle_B/q15/analisi_fase1.json e il rapporto con le frasi scritte prima dei dati è RAPPORTO_FASE1.md.
+
+Il verdetto uscito è: H1 NON CONCLUSIVO, perché l'ESS mediana al passo 40 è 15,7 (sotto 100). R sarebbe 1,99. I funzionali lineari hanno R tra 0,90 e 1,71 (lin_seq 0,90). H2: pendenza misurata 1,22 contro 0,51 prevista. Controlli a un passo: correlazione 0,98, pendenza 2,04.
+
+Cosa ti chiedo:
+1. Leggi PREMESSA.md (regole di H1, NON CONCLUSIVO, H2, H3, H5, H6, sensibilità) e analisi_fase1.py: il verdetto riportato è quello che le regole scritte prima prevedono? Ci sono margini di scelta usati dopo i dati?
+2. Ricontrolla dai file grezzi (run_s*.json e thermo_s1.json) i numeri principali: SD tra le corse di D_seq al passo 40, pavimento, R, ESS mediana, R di lin_seq, pendenza H2. Se non puoi eseguire codice, fai i conti a mano sui valori dei file e dillo.
+3. Il rapporto (RAPPORTO_FASE1.md) dice qualcosa che i numeri non sostengono? In particolare la frase "la teoria diffusione + Adam regge" sui funzionali lineari: è giustificata?
+4. Come leggeresti, in modo onesto, la coppia "funzionali lineari previsti bene (R circa 0,9) / D_seq vero circa 2 volte più disperso del previsto, con l'ESS crollato e i controlli a un passo con pendenza 2"? Cosa si può dire e cosa no?
+5. Segnala qualunque problema (dati strani, corse identiche, NaN, file mancanti, incoerenze con la premessa).
+
+Consegna: al massimo 600 parole, con un verdetto del controllo in una riga (CONFERMATO / CONFERMATO CON RISERVE / NON CONFERMATO), i numeri ricontrollati, i problemi in ordine di gravità e cosa non hai potuto verificare.

@@ -1,0 +1,6 @@
+Partenze della fase 2 (ricetta SFT congelata, 2 epoche, seme 0), addestrate a casa il 20/10/2026 in bf16.
+adapter_config.json: solo base_model_name_or_path cambiato in un nome Hugging Face (il notebook lo punta al modello scaricato).
+
+q05: base Qwen/Qwen2.5-0.5B-Instruct (model.safetensors sha256 fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe), adapter sha256 9a28754d96f6cef25b0c3e6c644878a1fafaf49183d908e803d2194bc40f0f5b
+olmo1: base allenai/OLMo-2-0425-1B-Instruct (model.safetensors sha256 36d044c73655bb904f822915e6294ba3dae8e6e1af5e703e9d452f2d6a3a294f), adapter sha256 0cb6beedb64846a1b5835e0fc9cc316d6adc4fbdcb144268d468f8d1087484ef
+smol17: base HuggingFaceTB/SmolLM2-1.7B-Instruct (model.safetensors sha256 f55217be716b6a997b97b9d8d7eb6fad02e00858f5010ec24f64603c3a98a0e8), adapter sha256 d158d49681ca2a78d79d2e314726f779f5f45bdc23bda9de0c695d57a9748f8a

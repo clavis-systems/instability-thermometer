@@ -1,0 +1,27 @@
+Termometro, fase 2 corta (test al passo 10): PREMESSA_FASE2_MODIFICA_BOZZA.md CONGELATA il 22/10/2026 18:32 (ora italiana),
+dopo il risultato della fase 1b e prima di qualunque corsa della fase 2 (esistono solo le tre partenze SFT del 20/10).
+Commit di congelamento: quello che aggiunge questo file (genitore 7949d45).
+Autorizzazione: Emanuele, 22/10 ("Sì, congela", dopo la 1b; decisione del 21/10: confermativo sulle 3 famiglie nuove).
+Revisioni indipendenti: Codex sul piano (revisioni/codex_modifica_fase2.md) e sul codice (revisioni/codex_codice_fase2.md),
+entrambe "pronta/pronto dopo correzioni", correzioni fatte (b713ca3 e seguenti).
+Codice scientifico: il termometro.py congelato il 20/10 (979d472) più fase2_corta.py; analisi_fase2.py è quello congelato il 20/10.
+kaggle/MANIFEST_FASE2.txt è il manifest del dataset termometro-fase2-codice che i notebook B2 controllano.
+
+File congelati (sha256 del contenuto in git, a capo LF):
+0dee95a35bb623f78f50b2702a544f367b6888538b374cf68e06118a084145ee  PREMESSA_FASE2.md
+c96cf2db90b3e3ab0aa7f05807c8cc26246c4169a4cc0ec4d7f70f4210ef8a16  PREMESSA_FASE2_MODIFICA_BOZZA.md
+b6c6f995e3b20a36a4171e753e8baf59aa351277335b445587309469b8940f9f  fase2_corta.py
+99164309dc7328c0cfe3bba97bc337183d30942a4ec61923f3ff2711197fda82  analisi_fase2.py
+a74ea551a1e6ccf5791d918473982198581db8391c8256ed31460450c64a79d7  termometro.py
+a32bc2d85c67024bb2193b1bf078116fba0afb26d9ce5ff0a45e1998340c7c6a  countdown.py
+67f9d88f883a12c8ca936decdfded9405f9ad64d0988c3308c3eb146ae977c4b  kaggle/crea_notebook_fase2.py
+d46ee4aa61a2a80001f68865aa2acf6ff19448c9b4e1c304c575d257aee197ae  kaggle/prepara_fase2.py
+15f9de5627814dacd477fa85d758b12a9135c3a8829c56d018f84550cf05cf59  kaggle/fase2_A_q05.ipynb
+f354350005497aca88ecce2bc3232c3924438c2515a474b054dd92ffeaf17d83  kaggle/fase2_A_olmo1.ipynb
+b3c75dd04d06c200814fdda09e57bbe0c3526ad462919a360dc1f681fe0e2732  kaggle/fase2_A_smol17.ipynb
+d412858d1a051bfc657b7f7163f8c2d8b72d9cfdfc2059ee1887b3d31b3dc1f8  kaggle/fase2_B_q05.ipynb
+dbc38e86a8951df80e811839da81e1ab55470ba82cd9f0835769e9c06635f621  kaggle/fase2_B_olmo1.ipynb
+aa4d9151c593b73cd40f5e893143465f461edc7c0bdeb39a394586fb289521b4  kaggle/fase2_B_smol17.ipynb
+f88e3cc7adbe67da532e1c218d4943fcb57ed98b5e603d69daca218dd04c1ed3  kaggle/partenze_fase2/MANIFEST.txt
+0acc9ca49c07f505a1da4aa37f57043935cff057a3d0bfc942e99125b1424432  kaggle/MANIFEST_FASE2.txt
+bfb7242dbc4418237555516d170cf04096515d1ae2a498f5b003d3c20e6bd19e  risultati/fase2_partenze.json

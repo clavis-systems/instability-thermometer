@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:01<08:30,  1.52s/it]Loading weights:  47%|████▋     | 160/338 [00:01<00:01, 136.63it/s]Loading weights:  73%|███████▎  | 247/338 [00:02<00:00, 129.44it/s]Loading weights:  89%|████████▉ | 300/338 [00:02<00:00, 127.86it/s]Loading weights: 100%|█████████▉| 337/338 [00:02<00:00, 142.58it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 115.74it/s]
+thermo seed 2 batch 1/25: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.5, 'n_fail_terminated': 28, 'seconds': 52.4}
+thermo seed 2 batch 2/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5666666666666667, 'n_fail_terminated': 30, 'seconds': 40.6}
+thermo seed 2 batch 3/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.5333333333333333, 'n_fail_terminated': 30, 'seconds': 50.3}
+thermo seed 2 batch 4/25: {'solve': 0.15625, 'informative': True, 'disclosure_sampled': 0.46153846153846156, 'n_fail_terminated': 26, 'seconds': 58.4}
+thermo seed 2 batch 5/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.4375, 'n_fail_terminated': 32, 'seconds': 37.7}
+thermo seed 2 batch 6/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.46875, 'n_fail_terminated': 32, 'seconds': 32.1}
+thermo seed 2 batch 7/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3, 'n_fail_terminated': 30, 'seconds': 40.9}
+thermo seed 2 batch 8/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.3333333333333333, 'n_fail_terminated': 27, 'seconds': 58.5}
+thermo seed 2 batch 9/25: {'solve': 0.1875, 'informative': True, 'disclosure_sampled': 0.34615384615384615, 'n_fail_terminated': 26, 'seconds': 57.5}
+thermo seed 2 batch 10/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.43333333333333335, 'n_fail_terminated': 30, 'seconds': 46.0}
+thermo seed 2 batch 11/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3870967741935484, 'n_fail_terminated': 31, 'seconds': 40.6}
+thermo seed 2 batch 12/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.5161290322580645, 'n_fail_terminated': 31, 'seconds': 47.9}
+thermo seed 2 batch 13/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.3870967741935484, 'n_fail_terminated': 31, 'seconds': 44.4}
+thermo seed 2 batch 14/25: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.38461538461538464, 'n_fail_terminated': 26, 'seconds': 48.3}
+thermo seed 2 batch 15/25: {'solve': 0.15625, 'informative': True, 'disclosure_sampled': 0.19230769230769232, 'n_fail_terminated': 26, 'seconds': 46.6}
+thermo seed 2 batch 16/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.22580645161290322, 'n_fail_terminated': 31, 'seconds': 40.8}
+thermo seed 2 batch 17/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5806451612903226, 'n_fail_terminated': 31, 'seconds': 40.7}
+thermo seed 2 batch 18/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.40625, 'n_fail_terminated': 32, 'seconds': 40.4}
+thermo seed 2 batch 19/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.4, 'n_fail_terminated': 30, 'seconds': 40.7}
+thermo seed 2 batch 20/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.3870967741935484, 'n_fail_terminated': 31, 'seconds': 47.0}
+thermo seed 2 batch 21/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.4838709677419355, 'n_fail_terminated': 31, 'seconds': 40.7}
+thermo seed 2 batch 22/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.36666666666666664, 'n_fail_terminated': 30, 'seconds': 45.4}
+thermo seed 2 batch 23/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.3333333333333333, 'n_fail_terminated': 30, 'seconds': 44.0}
+thermo seed 2 batch 24/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.43333333333333335, 'n_fail_terminated': 30, 'seconds': 51.5}
+thermo seed 2 batch 25/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.5, 'n_fail_terminated': 30, 'seconds': 49.3}
+PREVISIONE: {"D_seq_0": 0.485, "D_tf_0": 0.4667679411350847, "informative": 0.6, "pred_SD_lin_seq_40": 0.10062720554708773, "pred_SD_lin_tf_40": 0.03518927202185557, "analytic_seq_40": 0.10187244893448581, "D_false_0": 0.445, "pred_SD_lin_false_40": 0.09175681610167483}

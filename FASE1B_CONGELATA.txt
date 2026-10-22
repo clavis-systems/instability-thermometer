@@ -1,0 +1,13 @@
+Termometro, fase 1b (orizzonte lungo): PREMESSA_FASE1B.md CONGELATA il 20/10/2026 16:09 (ora italiana), prima di qualunque
+risultato delle corse della fase 1 (il notebook B non è ancora partito; il notebook A, solo previsione, è in corsa).
+Commit di congelamento: quello che aggiunge questo file (genitore 71330de).
+Autorizzazione: Emanuele, 20/10 ("si va bene approvo"). Revisione indipendente: "pronta dopo piccole correzioni",
+correzioni fatte in 71330de. La 1b è decisa dopo il congelamento della fase 1 e non ne cambia niente.
+Codice scientifico: il termometro.py congelato (979d472) più fase1b.py, che cambia solo l'orizzonte.
+
+File congelati (sha256 del contenuto in git, a capo LF):
+c5a4cdf2476a0ce8167f6255cdbb5ee9610cc1ce2203627c90102513a04af846  fase1b.py
+f0bd9e6c33b805d92d0ec05ec14241b64173db70f01ace782bca2e0d01a33e28  PREMESSA_FASE1B.md
+e800ddc26906df68098b0c6e728c73e73abd35196e82732caa0d441303fbfd18  kaggle/crea_notebook_fase1b.py
+6afa823225e26f456d4bc26eed6b6522630fca77e4afd919bcb68fdfb8c2fd58  kaggle/fase1b_C.ipynb
+44a87ad02ada20f32e6ca008f9c3c53b68d19a85d7584d85657079f5cde66fee  kaggle/prepara_C.py

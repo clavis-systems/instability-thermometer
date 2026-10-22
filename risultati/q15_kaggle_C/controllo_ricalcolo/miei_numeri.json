@@ -1,0 +1,1448 @@
+{
+  "nota": "ricalcolo indipendente, vedi ricalcolo.py",
+  "orizzonte": {
+    "T_max_previsione": 150,
+    "secondi_per_lotto": 45.45,
+    "ore_150_mie": 2.4715277777777778,
+    "ore_150_file": 2.4715277777777778,
+    "regola": "ore_150 > 3.5 -> orizzonte 100 (T=80,100) altrimenti 150 (T=80,150)",
+    "orizzonte_applicato": 150
+  },
+  "pavimento": {
+    "seq_stdev_n1_su_8_valori": 1.602921329942003e-06,
+    "seq_pstdev": 1.4993956086487516e-06,
+    "seq_file": 1.6029213299420032e-06,
+    "tf_stdev_n1": 2.4550337108972437e-07,
+    "tf_file": 2.4550337108972437e-07,
+    "false_stdev_n1": 1.2506645282392769e-06,
+    "false_file": 1.2506645282392769e-06,
+    "n_valori_seq": 8,
+    "seq_1e-5_rms_da_D0": 5.141856055171204e-06
+  },
+  "controllo_da_lp_seq": {
+    "max_diff_assoluta_D_seq_ricalcolato_vs_salvato": 1.1102230246251565e-16,
+    "max_diff_assoluta_D_false_ricalcolato_vs_salvato": 3.3306690738754696e-16,
+    "max_diff_relativa_ESS_ricalcolata_vs_salvata": 5.679756804886702e-16,
+    "nota": "D_seq = sum(w d)/sum(w), w=exp(lp_t - lp_0), d da pool.json; ESS=(sum w)^2/sum w^2"
+  },
+  "per_passo": {
+    "10": {
+      "D_seq_per_corsa": [
+        0.4829428994172265,
+        0.440141807324192,
+        0.3872437338434509,
+        0.47013401402734667,
+        0.43738938695217305,
+        0.368470318569106
+      ],
+      "D_seq_media": 0.43105369335558247,
+      "SD_grezza_n1": 0.04511870421563806,
+      "SD_con_pavimento_sottratto": 0.04511870418716476,
+      "SD_prevista": 0.053804732138434494,
+      "R_seq": 0.8385638659268593,
+      "R_seq_ddof0_solo_per_confronto": 0.7655005753648466,
+      "ESS_per_corsa": [
+        234.1928663986113,
+        124.89791291162933,
+        127.79931585598145,
+        83.50357597669976,
+        214.78075519561267,
+        101.84548012873856
+      ],
+      "ESS_mediana_vera": 126.3486143838054,
+      "ESS_min": 83.50357597669976,
+      "ESS_max": 234.1928663986113,
+      "verdetto_solo_D_seq": "PROMOSSO",
+      "R_intervallo_chi2_95": [
+        0.5234382755167742,
+        2.056673467863354
+      ],
+      "R_tf_descrittivo": 0.9945681172464033,
+      "R_false_descrittivo": 0.6289090164803105,
+      "SD_tf": 0.011941997631557436,
+      "SD_false": 0.03170693573988228,
+      "R_seq_pavimento_1e-5": 0.8385638610106191,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.03265354333278357,
+        0.044417871107225886,
+        0.04308953580893887,
+        0.05461869511939595,
+        0.03384857563713123,
+        0.04779992975707631
+      ],
+      "vincolo_0_1_D_min_max": [
+        0.368470318569106,
+        0.4829428994172265
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.025236438307936013,
+          "campioni_per_90pct_peso": 292,
+          "campioni_per_50pct_peso": 101
+        },
+        "202": {
+          "max_quota_peso": 0.04719925763426805,
+          "campioni_per_90pct_peso": 233,
+          "campioni_per_50pct_peso": 66
+        },
+        "203": {
+          "max_quota_peso": 0.03804919159557947,
+          "campioni_per_90pct_peso": 235,
+          "campioni_per_50pct_peso": 61
+        },
+        "204": {
+          "max_quota_peso": 0.06627789778273598,
+          "campioni_per_90pct_peso": 204,
+          "campioni_per_50pct_peso": 49
+        },
+        "205": {
+          "max_quota_peso": 0.023938857550739153,
+          "campioni_per_90pct_peso": 273,
+          "campioni_per_50pct_peso": 95
+        },
+        "206": {
+          "max_quota_peso": 0.035964176335996044,
+          "campioni_per_90pct_peso": 188,
+          "campioni_per_50pct_peso": 41
+        }
+      }
+    },
+    "20": {
+      "D_seq_per_corsa": [
+        0.5124536475400486,
+        0.6484216794269142,
+        0.428596348199254,
+        0.6350324236446308,
+        0.41190369175997477,
+        0.3796485806154084
+      ],
+      "D_seq_media": 0.5026760618643719,
+      "SD_grezza_n1": 0.11637764477559973,
+      "SD_con_pavimento_sottratto": 0.11637764476456085,
+      "SD_prevista": 0.07857708921315093,
+      "R_seq": 1.4810633217638136,
+      "R_seq_ddof0_solo_per_confronto": 1.3520196506803057,
+      "ESS_per_corsa": [
+        64.93488758099141,
+        10.496194347456843,
+        59.940182978833576,
+        17.239188176088604,
+        99.08122485726719,
+        71.40508431161814
+      ],
+      "ESS_mediana_vera": 62.437535279912495,
+      "ESS_min": 10.496194347456843,
+      "ESS_max": 99.08122485726719,
+      "verdetto_solo_D_seq": "NON CONCLUSIVO",
+      "R_intervallo_chi2_95": [
+        0.9244915772972431,
+        3.6324766208837374
+      ],
+      "R_tf_descrittivo": 0.7708051077455113,
+      "R_false_descrittivo": 1.1455460107490434,
+      "SD_tf": 0.013954892313612606,
+      "SD_false": 0.08189273085624223,
+      "R_seq_pavimento_1e-5": 1.4810633204587111,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.0620292033758108,
+        0.14737501938349723,
+        0.06391999124136495,
+        0.11594891437709212,
+        0.04944545588192757,
+        0.05743084579224839
+      ],
+      "vincolo_0_1_D_min_max": [
+        0.3796485806154084,
+        0.6484216794269142
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.09037384251918806,
+          "campioni_per_90pct_peso": 220,
+          "campioni_per_50pct_peso": 45
+        },
+        "202": {
+          "max_quota_peso": 0.2793764195923536,
+          "campioni_per_90pct_peso": 139,
+          "campioni_per_50pct_peso": 8
+        },
+        "203": {
+          "max_quota_peso": 0.07127967157456563,
+          "campioni_per_90pct_peso": 183,
+          "campioni_per_50pct_peso": 29
+        },
+        "204": {
+          "max_quota_peso": 0.2061215895643015,
+          "campioni_per_90pct_peso": 138,
+          "campioni_per_50pct_peso": 14
+        },
+        "205": {
+          "max_quota_peso": 0.04836362665538483,
+          "campioni_per_90pct_peso": 183,
+          "campioni_per_50pct_peso": 45
+        },
+        "206": {
+          "max_quota_peso": 0.0499476145221073,
+          "campioni_per_90pct_peso": 140,
+          "campioni_per_50pct_peso": 29
+        }
+      }
+    },
+    "40": {
+      "D_seq_per_corsa": [
+        0.51257229369819,
+        0.7026161334030799,
+        0.49078768201029505,
+        0.6236577384312445,
+        0.35913440325585183,
+        0.29083001526150537
+      ],
+      "D_seq_media": 0.49659971101002776,
+      "SD_grezza_n1": 0.15499244512621693,
+      "SD_con_pavimento_sottratto": 0.15499244511792828,
+      "SD_prevista": 0.11020060297041255,
+      "R_seq": 1.4064573236458766,
+      "R_seq_ddof0_solo_per_confronto": 1.2839140038682524,
+      "ESS_per_corsa": [
+        34.663929674861556,
+        5.5802402893147836,
+        16.388531310437514,
+        8.739353726156494,
+        44.28109162623684,
+        39.23901608526135
+      ],
+      "ESS_mediana_vera": 25.526230492649535,
+      "ESS_min": 5.5802402893147836,
+      "ESS_max": 44.28109162623684,
+      "verdetto_solo_D_seq": "NON CONCLUSIVO",
+      "R_intervallo_chi2_95": [
+        0.8779219162555082,
+        3.449496906270077
+      ],
+      "R_tf_descrittivo": 0.35066741218326364,
+      "R_false_descrittivo": 1.4745824569492942,
+      "SD_tf": 0.00892060881656697,
+      "SD_false": 0.14553418730361797,
+      "R_seq_pavimento_1e-5": 1.4064573229471364,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.08489727918156754,
+        0.19350460761729701,
+        0.12348842735760666,
+        0.16387963728041458,
+        0.07209461466632335,
+        0.07249962021977945
+      ],
+      "vincolo_0_1_D_min_max": [
+        0.29083001526150537,
+        0.7026161334030799
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.1066143274011783,
+          "campioni_per_90pct_peso": 124,
+          "campioni_per_50pct_peso": 15
+        },
+        "202": {
+          "max_quota_peso": 0.3696352771957365,
+          "campioni_per_90pct_peso": 78,
+          "campioni_per_50pct_peso": 2
+        },
+        "203": {
+          "max_quota_peso": 0.15440233325811895,
+          "campioni_per_90pct_peso": 67,
+          "campioni_per_50pct_peso": 6
+        },
+        "204": {
+          "max_quota_peso": 0.313782452475885,
+          "campioni_per_90pct_peso": 89,
+          "campioni_per_50pct_peso": 6
+        },
+        "205": {
+          "max_quota_peso": 0.0794920925633346,
+          "campioni_per_90pct_peso": 106,
+          "campioni_per_50pct_peso": 22
+        },
+        "206": {
+          "max_quota_peso": 0.06700575526496907,
+          "campioni_per_90pct_peso": 89,
+          "campioni_per_50pct_peso": 13
+        }
+      }
+    },
+    "60": {
+      "D_seq_per_corsa": [
+        0.3340206487577579,
+        0.36218580849969195,
+        0.5946619432703846,
+        0.6004583110674881,
+        0.4503791561456453,
+        0.10553449823917811
+      ],
+      "D_seq_media": 0.40787339433002434,
+      "SD_grezza_n1": 0.18586879435480552,
+      "SD_con_pavimento_sottratto": 0.18586879434789377,
+      "SD_prevista": 0.12974421620788146,
+      "R_seq": 1.4325786519075905,
+      "R_seq_ddof0_solo_per_confronto": 1.3077594050738217,
+      "ESS_per_corsa": [
+        17.87177614189893,
+        34.83910095644548,
+        4.549177626376518,
+        8.724189029425386,
+        12.026814176764304,
+        7.604274982340464
+      ],
+      "ESS_mediana_vera": 10.375501603094845,
+      "ESS_min": 4.549177626376518,
+      "ESS_max": 34.83910095644548,
+      "verdetto_solo_D_seq": "NON CONCLUSIVO",
+      "R_intervallo_chi2_95": [
+        0.8942270583861037,
+        3.5135624413642184
+      ],
+      "R_tf_descrittivo": 0.5046286879069285,
+      "R_false_descrittivo": 1.5341461778042238,
+      "SD_tf": 0.015146954298572586,
+      "SD_false": 0.17986351558567984,
+      "R_seq_pavimento_1e-5": 1.4325786514126924,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.11156633887861082,
+        0.08142904363626025,
+        0.23018515725944905,
+        0.16582879588284938,
+        0.1434648267787824,
+        0.11141665500570817
+      ],
+      "vincolo_0_1_D_min_max": [
+        0.10553449823917811,
+        0.6004583110674881
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.15038286806114426,
+          "campioni_per_90pct_peso": 58,
+          "campioni_per_50pct_peso": 6
+        },
+        "202": {
+          "max_quota_peso": 0.09445377570486635,
+          "campioni_per_90pct_peso": 73,
+          "campioni_per_50pct_peso": 14
+        },
+        "203": {
+          "max_quota_peso": 0.45413351089534854,
+          "campioni_per_90pct_peso": 31,
+          "campioni_per_50pct_peso": 2
+        },
+        "204": {
+          "max_quota_peso": 0.28998799142772974,
+          "campioni_per_90pct_peso": 42,
+          "campioni_per_50pct_peso": 4
+        },
+        "205": {
+          "max_quota_peso": 0.20764933422696258,
+          "campioni_per_90pct_peso": 58,
+          "campioni_per_50pct_peso": 5
+        },
+        "206": {
+          "max_quota_peso": 0.3310167985445218,
+          "campioni_per_90pct_peso": 46,
+          "campioni_per_50pct_peso": 3
+        }
+      }
+    },
+    "80": {
+      "D_seq_per_corsa": [
+        0.18810287095985012,
+        0.14709340437739696,
+        0.3235071209942892,
+        0.12452704196701209,
+        0.1643527804596896,
+        0.01699782697781604
+      ],
+      "D_seq_media": 0.16076350762267566,
+      "SD_grezza_n1": 0.09941260630087134,
+      "SD_con_pavimento_sottratto": 0.09941260628794865,
+      "SD_prevista": 0.1453158141674599,
+      "R_seq": 0.684114160991363,
+      "R_seq_ddof0_solo_per_confronto": 0.6245079297899145,
+      "ESS_per_corsa": [
+        34.366635888651736,
+        31.51809233888485,
+        8.990657336823046,
+        17.30356536772689,
+        4.130122155971584,
+        3.951975336776785
+      ],
+      "ESS_mediana_vera": 13.147111352274969,
+      "ESS_min": 3.951975336776785,
+      "ESS_max": 34.366635888651736,
+      "verdetto_solo_D_seq": "NON CONCLUSIVO",
+      "R_intervallo_chi2_95": [
+        0.4270295337494988,
+        1.677867961011399
+      ],
+      "R_tf_descrittivo": 0.5871144619046117,
+      "R_false_descrittivo": 0.7880613527640293,
+      "SD_tf": 0.019926326953396387,
+      "SD_false": 0.10334914578826043,
+      "R_seq_pavimento_1e-5": 0.6841141601652189,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.0666622094943401,
+        0.0630909946756435,
+        0.15601911650595038,
+        0.07937530461609865,
+        0.18235537365559076,
+        0.06502297385117858
+      ],
+      "vincolo_0_1_D_min_max": [
+        0.01699782697781604,
+        0.3235071209942892
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.08488543970890768,
+          "campioni_per_90pct_peso": 63,
+          "campioni_per_50pct_peso": 13
+        },
+        "202": {
+          "max_quota_peso": 0.09686378629078903,
+          "campioni_per_90pct_peso": 56,
+          "campioni_per_50pct_peso": 12
+        },
+        "203": {
+          "max_quota_peso": 0.2984008969040623,
+          "campioni_per_90pct_peso": 28,
+          "campioni_per_50pct_peso": 5
+        },
+        "204": {
+          "max_quota_peso": 0.13158389304135737,
+          "campioni_per_90pct_peso": 33,
+          "campioni_per_50pct_peso": 7
+        },
+        "205": {
+          "max_quota_peso": 0.48119638510821255,
+          "campioni_per_90pct_peso": 32,
+          "campioni_per_50pct_peso": 2
+        },
+        "206": {
+          "max_quota_peso": 0.49319291744563265,
+          "campioni_per_90pct_peso": 27,
+          "campioni_per_50pct_peso": 2
+        }
+      }
+    },
+    "100": {
+      "D_seq_per_corsa": [
+        0.029284633990114564,
+        0.06516362064322868,
+        0.12723294359274095,
+        0.0070239436803517,
+        0.09895787255215796,
+        0.00384240769866048
+      ],
+      "D_seq_media": 0.055250903692875726,
+      "SD_grezza_n1": 0.05066141618048836,
+      "SD_con_pavimento_sottratto": 0.05066141615513024,
+      "SD_prevista": 0.1583028429532864,
+      "R_seq": 0.3200284670192558,
+      "R_seq_ddof0_solo_per_confronto": 0.29214468402116134,
+      "ESS_per_corsa": [
+        27.99678664344742,
+        13.19126596174378,
+        13.750694738064167,
+        11.51277707965525,
+        5.497935812109743,
+        7.849669119584323
+      ],
+      "ESS_mediana_vera": 12.352021520699514,
+      "ESS_min": 5.497935812109743,
+      "ESS_max": 27.99678664344742,
+      "verdetto_solo_D_seq": "NON CONCLUSIVO",
+      "R_intervallo_chi2_95": [
+        0.19976433006409441,
+        0.7849062949450942
+      ],
+      "R_tf_descrittivo": 0.7202412524778837,
+      "R_false_descrittivo": 0.35594078122110057,
+      "SD_tf": 0.027032505341682393,
+      "SD_false": 0.050780291964584924,
+      "R_seq_pavimento_1e-5": 0.3200284655311146,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.0318648412057717,
+        0.06795589981204049,
+        0.08986418489755364,
+        0.024613300318840084,
+        0.12734968957705892,
+        0.02208208469209329
+      ],
+      "vincolo_0_1_D_min_max": [
+        0.00384240769866048,
+        0.12723294359274095
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.11214553853930993,
+          "campioni_per_90pct_peso": 52,
+          "campioni_per_50pct_peso": 11
+        },
+        "202": {
+          "max_quota_peso": 0.2207731182279767,
+          "campioni_per_90pct_peso": 43,
+          "campioni_per_50pct_peso": 6
+        },
+        "203": {
+          "max_quota_peso": 0.18686548619338905,
+          "campioni_per_90pct_peso": 24,
+          "campioni_per_50pct_peso": 6
+        },
+        "204": {
+          "max_quota_peso": 0.18581842669078888,
+          "campioni_per_90pct_peso": 18,
+          "campioni_per_50pct_peso": 4
+        },
+        "205": {
+          "max_quota_peso": 0.40970587494036603,
+          "campioni_per_90pct_peso": 31,
+          "campioni_per_50pct_peso": 3
+        },
+        "206": {
+          "max_quota_peso": 0.30305145720313487,
+          "campioni_per_90pct_peso": 22,
+          "campioni_per_50pct_peso": 4
+        }
+      }
+    },
+    "120": {
+      "D_seq_per_corsa": [
+        0.008420938930884489,
+        0.016377110219296213,
+        0.01724865794543716,
+        0.00023688533754389655,
+        0.030012724829051506,
+        0.0005424269985906211
+      ],
+      "D_seq_media": 0.012139790710133982,
+      "SD_grezza_n1": 0.011432454110929385,
+      "SD_con_pavimento_sottratto": 0.011432453998558202,
+      "SD_prevista": 0.16985110060673014,
+      "R_seq": 0.06730868365126864,
+      "R_seq_ddof0_solo_per_confronto": 0.06144414046550976,
+      "ESS_per_corsa": [
+        8.241003298786813,
+        3.615897686475687,
+        15.483842648376477,
+        9.09347752164278,
+        8.149648032263146,
+        6.144890110196239
+      ],
+      "ESS_mediana_vera": 8.19532566552498,
+      "ESS_min": 3.615897686475687,
+      "ESS_max": 15.483842648376477,
+      "verdetto_solo_D_seq": "NON CONCLUSIVO",
+      "R_intervallo_chi2_95": [
+        0.04201461895664026,
+        0.16508221907387358
+      ],
+      "R_tf_descrittivo": 1.9217978371873699,
+      "R_false_descrittivo": 0.1448343785705375,
+      "SD_tf": 0.07846384382081677,
+      "SD_false": 0.02232608512589211,
+      "R_seq_pavimento_1e-5": 0.06730867750512977,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.03183126429663722,
+        0.06674594442841612,
+        0.033087206590220325,
+        0.0051033181768675405,
+        0.0597676672213324,
+        0.009392815031584675
+      ],
+      "vincolo_0_1_D_min_max": [
+        0.00023688533754389655,
+        0.030012724829051506
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.31958640714212727,
+          "campioni_per_90pct_peso": 32,
+          "campioni_per_50pct_peso": 5
+        },
+        "202": {
+          "max_quota_peso": 0.5164563045828742,
+          "campioni_per_90pct_peso": 25,
+          "campioni_per_50pct_peso": 1
+        },
+        "203": {
+          "max_quota_peso": 0.13598081573015364,
+          "campioni_per_90pct_peso": 22,
+          "campioni_per_50pct_peso": 6
+        },
+        "204": {
+          "max_quota_peso": 0.18276218860357757,
+          "campioni_per_90pct_peso": 13,
+          "campioni_per_50pct_peso": 4
+        },
+        "205": {
+          "max_quota_peso": 0.25515128496213324,
+          "campioni_per_90pct_peso": 24,
+          "campioni_per_50pct_peso": 3
+        },
+        "206": {
+          "max_quota_peso": 0.35611841155059754,
+          "campioni_per_90pct_peso": 18,
+          "campioni_per_50pct_peso": 2
+        }
+      }
+    },
+    "150": {
+      "D_seq_per_corsa": [
+        0.00022802809846825267,
+        0.0036731341639202574,
+        0.0020188787658896486,
+        6.471249698068533e-06,
+        0.002382784274164415,
+        0.00022433986611491112
+      ],
+      "D_seq_media": 0.0014222727363759253,
+      "SD_grezza_n1": 0.0014973747427538704,
+      "SD_con_pavimento_sottratto": 0.0014973738847997948,
+      "SD_prevista": 0.1884332931224554,
+      "R_seq": 0.007946440143285667,
+      "R_seq_ddof0_solo_per_confronto": 0.0072540733659596,
+      "ESS_per_corsa": [
+        12.61548601965694,
+        14.841984218397368,
+        16.927206182993164,
+        5.860159569718645,
+        2.3456420324263574,
+        12.684961283532605
+      ],
+      "ESS_mediana_vera": 12.650223651594771,
+      "ESS_min": 2.3456420324263574,
+      "ESS_max": 16.927206182993164,
+      "verdetto_solo_D_seq": "NON CONCLUSIVO",
+      "R_intervallo_chi2_95": [
+        0.004960231526910931,
+        0.019489550254584164
+      ],
+      "R_tf_descrittivo": 4.089832849079776,
+      "R_false_descrittivo": 0.011975436352531395,
+      "SD_tf": 0.18637203669614388,
+      "SD_false": 0.002055053052964716,
+      "R_seq_pavimento_1e-5": 0.007946397844934347,
+      "rumore_euristico_sqrt_D(1-D)/ESS_per_corsa": [
+        0.004251015301351062,
+        0.015702663845460037,
+        0.010909972124491383,
+        0.0010508432833969445,
+        0.03183416496621083,
+        0.0042049412747185615
+      ],
+      "vincolo_0_1_D_min_max": [
+        6.471249698068533e-06,
+        0.0036731341639202574
+      ],
+      "pesi": {
+        "201": {
+          "max_quota_peso": 0.1844047746583061,
+          "campioni_per_90pct_peso": 24,
+          "campioni_per_50pct_peso": 4
+        },
+        "202": {
+          "max_quota_peso": 0.16721444603170238,
+          "campioni_per_90pct_peso": 19,
+          "campioni_per_50pct_peso": 6
+        },
+        "203": {
+          "max_quota_peso": 0.1114789657780021,
+          "campioni_per_90pct_peso": 19,
+          "campioni_per_50pct_peso": 6
+        },
+        "204": {
+          "max_quota_peso": 0.2731770556879062,
+          "campioni_per_90pct_peso": 7,
+          "campioni_per_50pct_peso": 2
+        },
+        "205": {
+          "max_quota_peso": 0.645539940352933,
+          "campioni_per_90pct_peso": 11,
+          "campioni_per_50pct_peso": 1
+        },
+        "206": {
+          "max_quota_peso": 0.16767717821792585,
+          "campioni_per_90pct_peso": 18,
+          "campioni_per_50pct_peso": 5
+        }
+      }
+    }
+  },
+  "D_samp": {
+    "20": {
+      "finestra": [
+        1,
+        20
+      ],
+      "medie_per_corsa": [
+        0.47695296029980405,
+        0.4239593683774718,
+        0.39842795897558136,
+        0.37552942946261914,
+        0.4375237642795346,
+        0.41684905089451807
+      ],
+      "media_tra_corse": 0.4215404220482548,
+      "SD_osservata_tra_corse": 0.034655661231632794,
+      "rumore_SD_stimato": 0.021566937679306137,
+      "SD_corretta_in_quadratura": 0.02712714608171345,
+      "SD_prevista": 0.07857708921315093,
+      "R_samp": 0.3452297145816564,
+      "R_samp_senza_correzione_rumore": 0.4410402774990131,
+      "soglia_regola_rumore_meta_SD_prevista": 0.039288544606575465,
+      "rumore_supera_meta_SD_prevista": false,
+      "SD_per_passo_media_sulle_corse": 0.09645027743486016
+    },
+    "40": {
+      "finestra": [
+        21,
+        40
+      ],
+      "medie_per_corsa": [
+        0.4257080000706252,
+        0.4206691421904944,
+        0.4071805376865347,
+        0.4272165240492125,
+        0.45474520742110336,
+        0.3447856639482752
+      ],
+      "media_tra_corse": 0.41338417922770754,
+      "SD_osservata_tra_corse": 0.03701690729633497,
+      "rumore_SD_stimato": 0.02344248051641741,
+      "SD_corretta_in_quadratura": 0.028647888805684224,
+      "SD_prevista": 0.11020060297041255,
+      "R_samp": 0.2599612709322091,
+      "R_samp_senza_correzione_rumore": 0.3359047618484768,
+      "soglia_regola_rumore_meta_SD_prevista": 0.055100301485206275,
+      "rumore_supera_meta_SD_prevista": false,
+      "SD_per_passo_media_sulle_corse": 0.1048379599918474
+    },
+    "60": {
+      "finestra": [
+        41,
+        60
+      ],
+      "medie_per_corsa": [
+        0.45195105324796403,
+        0.34924159898072943,
+        0.4255913521014813,
+        0.3949635269532968,
+        0.493613972680072,
+        0.3410666111179999
+      ],
+      "media_tra_corse": 0.40940468584692385,
+      "SD_osservata_tra_corse": 0.05943339479034388,
+      "rumore_SD_stimato": 0.025118447464599982,
+      "SD_corretta_in_quadratura": 0.05386457103953401,
+      "SD_prevista": 0.12974421620788146,
+      "R_samp": 0.41515970895558074,
+      "R_samp_senza_correzione_rumore": 0.4580812657969838,
+      "soglia_regola_rumore_meta_SD_prevista": 0.06487210810394073,
+      "rumore_supera_meta_SD_prevista": false,
+      "SD_per_passo_media_sulle_corse": 0.1123331120402056
+    },
+    "80": {
+      "finestra": [
+        61,
+        80
+      ],
+      "medie_per_corsa": [
+        0.3918798471000988,
+        0.4012542722622646,
+        0.38697176752929546,
+        0.4188791036142631,
+        0.5472901588865211,
+        0.2502101959077999
+      ],
+      "media_tra_corse": 0.39941422421670714,
+      "SD_osservata_tra_corse": 0.09457587746545207,
+      "rumore_SD_stimato": 0.026533322220367056,
+      "SD_corretta_in_quadratura": 0.09077763717078331,
+      "SD_prevista": 0.1453158141674599,
+      "R_samp": 0.6246920728543175,
+      "R_samp_senza_correzione_rumore": 0.6508299045585235,
+      "soglia_regola_rumore_meta_SD_prevista": 0.07265790708372995,
+      "rumore_supera_meta_SD_prevista": false,
+      "SD_per_passo_media_sulle_corse": 0.11866062430729278
+    },
+    "100": {
+      "finestra": [
+        81,
+        100
+      ],
+      "medie_per_corsa": [
+        0.2680293005547919,
+        0.32918650793650794,
+        0.4286191152328923,
+        0.3825102142999909,
+        0.53937851546421,
+        0.22784787043881471
+      ],
+      "media_tra_corse": 0.362595253987868,
+      "SD_osservata_tra_corse": 0.11333472430892044,
+      "rumore_SD_stimato": 0.03228269899175061,
+      "SD_corretta_in_quadratura": 0.1086397122602367,
+      "SD_prevista": 0.1583028429532864,
+      "R_samp": 0.6862777081792221,
+      "R_samp_senza_correzione_rumore": 0.7159361272012303,
+      "soglia_regola_rumore_meta_SD_prevista": 0.0791514214766432,
+      "rumore_supera_meta_SD_prevista": false,
+      "SD_per_passo_media_sulle_corse": 0.1443726188854366
+    },
+    "120": {
+      "finestra": [
+        101,
+        120
+      ],
+      "medie_per_corsa": [
+        0.16882693330061752,
+        0.28563560622384154,
+        0.45543556589609224,
+        0.5267128296540061,
+        0.5320779635311369,
+        0.21060273060273058
+      ],
+      "media_tra_corse": 0.3632152715347375,
+      "SD_osservata_tra_corse": 0.1617693797430318,
+      "rumore_SD_stimato": 0.03173099821935364,
+      "SD_corretta_in_quadratura": 0.15862684506239352,
+      "SD_prevista": 0.16985110060673014,
+      "R_samp": 0.9339170867645713,
+      "R_samp_senza_correzione_rumore": 0.9524187901354222,
+      "soglia_regola_rumore_meta_SD_prevista": 0.08492555030336507,
+      "rumore_supera_meta_SD_prevista": false,
+      "SD_per_passo_media_sulle_corse": 0.14190533802479904
+    },
+    "150": {
+      "finestra": [
+        131,
+        150
+      ],
+      "medie_per_corsa": [
+        0.04467948717948718,
+        0.33553543678543674,
+        0.4742191142191142,
+        0.8813706718118484,
+        0.41209705735441027,
+        0.16754025579683476
+      ],
+      "media_tra_corse": 0.3859070038578552,
+      "SD_osservata_tra_corse": 0.2900437013857045,
+      "rumore_SD_stimato": 0.03428336032715355,
+      "SD_corretta_in_quadratura": 0.28801041633628166,
+      "SD_prevista": 0.1884332931224554,
+      "R_samp": 1.5284476090385737,
+      "R_samp_senza_correzione_rumore": 1.5392380856880556,
+      "soglia_regola_rumore_meta_SD_prevista": 0.0942166465612277,
+      "rumore_supera_meta_SD_prevista": false,
+      "SD_per_passo_media_sulle_corse": 0.15331984837726953
+    }
+  },
+  "D_samp_sensibilita": {
+    "80": {
+      "B_finestra_T-20..T-1": {
+        "finestra": [
+          60,
+          79
+        ],
+        "medie_per_corsa": [
+          0.4013660131080039,
+          0.3984764944844868,
+          0.40207871940095324,
+          0.40702012925528874,
+          0.5390793745727956,
+          0.25206204775965174
+        ],
+        "media_tra_corse": 0.4000137964301967,
+        "SD_osservata_tra_corse": 0.09086968620233542,
+        "rumore_SD_stimato": 0.025608833949496743,
+        "SD_corretta_in_quadratura": 0.08718650981807914,
+        "SD_prevista": 0.1453158141674599,
+        "R_samp": 0.5999795020079964,
+        "R_samp_senza_correzione_rumore": 0.6253255141083164,
+        "soglia_regola_rumore_meta_SD_prevista": 0.07265790708372995,
+        "rumore_supera_meta_SD_prevista": false,
+        "SD_per_passo_media_sulle_corse": 0.11452618707115826
+      },
+      "varianza_ddof0": {
+        "finestra": [
+          61,
+          80
+        ],
+        "medie_per_corsa": [
+          0.3918798471000988,
+          0.4012542722622646,
+          0.38697176752929546,
+          0.4188791036142631,
+          0.5472901588865211,
+          0.2502101959077999
+        ],
+        "media_tra_corse": 0.39941422421670714,
+        "SD_osservata_tra_corse": 0.09457587746545207,
+        "rumore_SD_stimato": 0.025861483496646763,
+        "SD_corretta_in_quadratura": 0.09097131564242034,
+        "SD_prevista": 0.1453158141674599,
+        "R_samp": 0.6260248835518086,
+        "R_samp_senza_correzione_rumore": 0.6508299045585235,
+        "soglia_regola_rumore_meta_SD_prevista": 0.07265790708372995,
+        "rumore_supera_meta_SD_prevista": false,
+        "SD_per_passo_media_sulle_corse": 0.11565607019498224
+      },
+      "pooled_pesato_per_n_fail": {
+        "finestra": [
+          61,
+          80
+        ],
+        "medie_per_corsa": [
+          0.3924050632911392,
+          0.39845758354755784,
+          0.375,
+          0.41728395061728396,
+          0.5519630484988453,
+          0.24619289340101522
+        ],
+        "media_tra_corse": 0.3968837565593069,
+        "SD_osservata_tra_corse": 0.0976472481654132,
+        "rumore_SD_stimato": 0.026533322220367056,
+        "SD_corretta_in_quadratura": 0.093973229625399,
+        "SD_prevista": 0.1453158141674599,
+        "R_samp": 0.6466827451904552,
+        "R_samp_senza_correzione_rumore": 0.6719657370042733,
+        "soglia_regola_rumore_meta_SD_prevista": 0.07265790708372995,
+        "rumore_supera_meta_SD_prevista": false,
+        "SD_per_passo_media_sulle_corse": 0.11866062430729278
+      }
+    },
+    "150": {
+      "B_finestra_T-20..T-1": {
+        "finestra": [
+          130,
+          149
+        ],
+        "medie_per_corsa": [
+          0.04877039627039627,
+          0.3438687701187701,
+          0.4729204129204129,
+          0.8635135289547055,
+          0.4051526129099659,
+          0.16413116488774385
+        ],
+        "media_tra_corse": 0.38305948101033244,
+        "SD_osservata_tra_corse": 0.2830596747485374,
+        "rumore_SD_stimato": 0.03507432024668494,
+        "SD_corretta_in_quadratura": 0.28087821476216474,
+        "SD_prevista": 0.1884332931224554,
+        "R_samp": 1.4905976014526956,
+        "R_samp_senza_correzione_rumore": 1.5021744303146471,
+        "soglia_regola_rumore_meta_SD_prevista": 0.0942166465612277,
+        "rumore_supera_meta_SD_prevista": false,
+        "SD_per_passo_media_sulle_corse": 0.15685712867236945
+      },
+      "varianza_ddof0": {
+        "finestra": [
+          131,
+          150
+        ],
+        "medie_per_corsa": [
+          0.04467948717948718,
+          0.33553543678543674,
+          0.4742191142191142,
+          0.8813706718118484,
+          0.41209705735441027,
+          0.16754025579683476
+        ],
+        "media_tra_corse": 0.3859070038578552,
+        "SD_osservata_tra_corse": 0.2900437013857045,
+        "rumore_SD_stimato": 0.03341528625577483,
+        "SD_corretta_in_quadratura": 0.28811242138784016,
+        "SD_prevista": 0.1884332931224554,
+        "R_samp": 1.5289889414637954,
+        "R_samp_senza_correzione_rumore": 1.5392380856880556,
+        "soglia_regola_rumore_meta_SD_prevista": 0.0942166465612277,
+        "rumore_supera_meta_SD_prevista": false,
+        "SD_per_passo_media_sulle_corse": 0.14943770311105387
+      },
+      "pooled_pesato_per_n_fail": {
+        "finestra": [
+          131,
+          150
+        ],
+        "medie_per_corsa": [
+          0.04128440366972477,
+          0.3351063829787234,
+          0.4485981308411215,
+          0.8633879781420765,
+          0.40562248995983935,
+          0.1724137931034483
+        ],
+        "media_tra_corse": 0.377735529782489,
+        "SD_osservata_tra_corse": 0.2824291455735584,
+        "rumore_SD_stimato": 0.03428336032715355,
+        "SD_corretta_in_quadratura": 0.28034063828508493,
+        "SD_prevista": 0.1884332931224554,
+        "R_samp": 1.4877447272701567,
+        "R_samp_senza_correzione_rumore": 1.498828263803779,
+        "soglia_regola_rumore_meta_SD_prevista": 0.0942166465612277,
+        "rumore_supera_meta_SD_prevista": false,
+        "SD_per_passo_media_sulle_corse": 0.15331984837726953
+      }
+    }
+  },
+  "riuscita_finestre": {
+    "20": {
+      "finestra": [
+        1,
+        20
+      ],
+      "media": 0.04791666666666666,
+      "per_corsa": [
+        0.040625,
+        0.0515625,
+        0.0359375,
+        0.0671875,
+        0.0421875,
+        0.05
+      ],
+      "quota_lotti_informativi": 0.65
+    },
+    "40": {
+      "finestra": [
+        21,
+        40
+      ],
+      "media": 0.05130208333333333,
+      "per_corsa": [
+        0.040625,
+        0.03125,
+        0.0703125,
+        0.05625,
+        0.0484375,
+        0.0609375
+      ],
+      "quota_lotti_informativi": 0.6666666666666666
+    },
+    "60": {
+      "finestra": [
+        41,
+        60
+      ],
+      "media": 0.08255208333333333,
+      "per_corsa": [
+        0.1171875,
+        0.06875,
+        0.0828125,
+        0.0859375,
+        0.0671875,
+        0.0734375
+      ],
+      "quota_lotti_informativi": 0.7416666666666667
+    },
+    "80": {
+      "finestra": [
+        61,
+        80
+      ],
+      "media": 0.06510416666666667,
+      "per_corsa": [
+        0.065625,
+        0.04375,
+        0.0796875,
+        0.06875,
+        0.090625,
+        0.0421875
+      ],
+      "quota_lotti_informativi": 0.6416666666666667
+    },
+    "100": {
+      "finestra": [
+        81,
+        100
+      ],
+      "media": 0.09453125,
+      "per_corsa": [
+        0.0921875,
+        0.0875,
+        0.090625,
+        0.09375,
+        0.0984375,
+        0.1046875
+      ],
+      "quota_lotti_informativi": 0.6916666666666667
+    },
+    "120": {
+      "finestra": [
+        101,
+        120
+      ],
+      "media": 0.09348958333333333,
+      "per_corsa": [
+        0.0828125,
+        0.0640625,
+        0.115625,
+        0.0921875,
+        0.0984375,
+        0.1078125
+      ],
+      "quota_lotti_informativi": 0.675
+    },
+    "150": {
+      "finestra": [
+        131,
+        150
+      ],
+      "media": 0.1125,
+      "per_corsa": [
+        0.1078125,
+        0.1078125,
+        0.1625,
+        0.109375,
+        0.0921875,
+        0.0953125
+      ],
+      "quota_lotti_informativi": 0.7
+    }
+  },
+  "riuscita_finestre_B_T-20..T-1": {
+    "80": 0.06380208333333333,
+    "150": 0.109375
+  },
+  "verdetti": [
+    {
+      "T": 80,
+      "ESS_mediana": 13.147111352274969,
+      "R_seq": 0.684114160991363,
+      "R_samp": 0.6246920728543175,
+      "rumore_SD": 0.026533322220367056,
+      "meta_SD_prevista": 0.07265790708372995,
+      "verdetto_D_seq": "NON CONCLUSIVO",
+      "verdetto_D_samp": "PROMOSSO",
+      "verdetto_usato": "PROMOSSO",
+      "fonte": "D_samp (D_seq NON CONCLUSIVO per ESS < 100)"
+    },
+    {
+      "T": 150,
+      "ESS_mediana": 12.650223651594771,
+      "R_seq": 0.007946440143285667,
+      "R_samp": 1.5284476090385737,
+      "rumore_SD": 0.03428336032715355,
+      "meta_SD_prevista": 0.0942166465612277,
+      "verdetto_D_seq": "NON CONCLUSIVO",
+      "verdetto_D_samp": "PROMOSSO",
+      "verdetto_usato": "PROMOSSO",
+      "fonte": "D_samp (D_seq NON CONCLUSIVO per ESS < 100)"
+    }
+  ],
+  "fin_dove_regge": {
+    "frase": "regge fino a T=150",
+    "T": 150
+  },
+  "verdetti_sensibilita_D_samp": {
+    "B_finestra_T-20..T-1": {
+      "R_samp": {
+        "80": 0.5999795020079964,
+        "150": 1.4905976014526956
+      },
+      "verdetti": {
+        "80": "PROMOSSO",
+        "150": "PROMOSSO"
+      },
+      "fin_dove_regge": "regge fino a T=150"
+    },
+    "varianza_ddof0": {
+      "R_samp": {
+        "80": 0.6260248835518086,
+        "150": 1.5289889414637954
+      },
+      "verdetti": {
+        "80": "PROMOSSO",
+        "150": "PROMOSSO"
+      },
+      "fin_dove_regge": "regge fino a T=150"
+    },
+    "pooled": {
+      "R_samp": {
+        "80": 0.6466827451904552,
+        "150": 1.4877447272701567
+      },
+      "verdetti": {
+        "80": "PROMOSSO",
+        "150": "PROMOSSO"
+      },
+      "fin_dove_regge": "regge fino a T=150"
+    }
+  },
+  "H2b": {
+    "passi_usati": [],
+    "esito": "non calcolabile (meno di 3 passi con ESS mediana >= 100)",
+    "variante_tutti_i_passi_da_40_ignorando_ESS": {
+      "passi": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "pendenza_misurata": -3.3435363831178293,
+      "pendenza_prevista": 0.4008305729063046
+    },
+    "variante_D_samp_SD_corretta_da_40": {
+      "passi": [
+        40,
+        60,
+        80,
+        100,
+        120,
+        150
+      ],
+      "pendenza_misurata": 1.6655540760402916,
+      "pendenza_prevista": 0.4008305729063046
+    }
+  },
+  "diagnostiche": {
+    "medie_D_seq_tra_corse": {
+      "10": 0.43105369335558247,
+      "20": 0.5026760618643719,
+      "40": 0.49659971101002776,
+      "60": 0.40787339433002434,
+      "80": 0.16076350762267566,
+      "100": 0.055250903692875726,
+      "120": 0.012139790710133982,
+      "150": 0.0014222727363759253
+    },
+    "medie_D_samp_tra_corse": {
+      "20": 0.4215404220482548,
+      "40": 0.41338417922770754,
+      "60": 0.40940468584692385,
+      "80": 0.39941422421670714,
+      "100": 0.362595253987868,
+      "120": 0.3632152715347375,
+      "150": 0.3859070038578552
+    },
+    "correlazione_tra_corse_D_seq_vs_D_samp": {
+      "80": 0.40458856649250774,
+      "150": -0.03127596060237237
+    },
+    "corr_D_seq_80_150": 0.35019598429904464,
+    "corr_D_samp_80_150": 0.34615880304854396,
+    "ESS_mediana_per_T": {
+      "10": 126.3486143838054,
+      "20": 62.437535279912495,
+      "40": 25.526230492649535,
+      "60": 10.375501603094845,
+      "80": 13.147111352274969,
+      "100": 12.352021520699514,
+      "120": 8.19532566552498,
+      "150": 12.650223651594771
+    },
+    "rapporto_SD_samp_su_SD_seq": {
+      "20": 0.23309585046675707,
+      "40": 0.1848340980999884,
+      "60": 0.2897988940451982,
+      "80": 0.9131400992329469,
+      "100": 2.1444270710390567,
+      "120": 13.875135214399172,
+      "150": 192.34368868052607
+    },
+    "leave_one_out": {
+      "80": {
+        "R_seq_senza_una_corsa": [
+          0.7578895095474799,
+          0.7631254072157997,
+          0.45688284029938975,
+          0.7525693185884624,
+          0.7647432297503316,
+          0.5397976466263917
+        ],
+        "R_samp_senza_una_corsa": [
+          0.7032792208456116,
+          0.7040655898940377,
+          0.7031103595065987,
+          0.6992195546447342,
+          0.43633686846119846,
+          0.42127078222265724
+        ]
+      },
+      "150": {
+        "R_seq_senza_una_corsa": [
+          0.008178157084273163,
+          0.006010534103987345,
+          0.008713499619189897,
+          0.007873780043575467,
+          0.008434304711297096,
+          0.00817359825556965
+        ],
+        "R_samp_senza_una_corsa": [
+          1.3926537998910173,
+          1.7059155951492142,
+          1.694057694033111,
+          0.9227971956438725,
+          1.7093882791462158,
+          1.5886741369603672
+        ]
+      }
+    },
+    "bootstrap_R_seq_con_6_corse": {
+      "80": {
+        "p2.5": 0.1355512600722938,
+        "p50": 0.5982391231359208,
+        "p97.5": 0.9475502083815983
+      },
+      "150": {
+        "p2.5": 0.0038831486321603942,
+        "p50": 0.007479996979714611,
+        "p97.5": 0.009734350417648
+      }
+    },
+    "potenza_ricontrollata": {
+      "P_PROMOSSO_se_previsione_giusta": 0.9387418297258142,
+      "P_PROMOSSO_con_errore_2x_sopra": 0.5815211745280459,
+      "P_PROMOSSO_con_errore_2x_sotto": 0.415880186995507,
+      "P_BOCCIATO_con_errore_3x_sopra": 0.41592705348258624,
+      "P_BOCCIATO_con_errore_4x_sopra": 0.7288767534342855,
+      "P_BOCCIATO_con_errore_3x_sotto": 0.5718562844794721,
+      "intervallo_95_SD_moltiplicatori": [
+        0.6242080022589828,
+        2.4526139885482974
+      ]
+    },
+    "R_samp_intervallo_chi2_95": {
+      "80": [
+        0.38993779082341645,
+        1.5321285164177312
+      ],
+      "150": [
+        0.9540692285954868,
+        3.7486919866912047
+      ]
+    },
+    "rumore_D_samp_tendenza_e_autocorrelazione": {
+      "80": [
+        {
+          "semi": 201,
+          "var_totale": 0.01254528551958763,
+          "var_residua_dopo_tendenza": 0.012105326341015165,
+          "autocorr_lag1": -0.2329978888774006,
+          "pendenza_per_passo": -0.005547410251828617
+        },
+        {
+          "semi": 202,
+          "var_totale": 0.013280821241067699,
+          "var_residua_dopo_tendenza": 0.013825938444075708,
+          "autocorr_lag1": -0.262981237295545,
+          "pendenza_per_passo": -0.002283879955144106
+        },
+        {
+          "semi": 203,
+          "var_totale": 0.01498523296604759,
+          "var_residua_dopo_tendenza": 0.015607795735214274,
+          "autocorr_lag1": 0.0412826203462943,
+          "pendenza_per_passo": -0.0023838753818438696
+        },
+        {
+          "semi": 204,
+          "var_totale": 0.01018556767258425,
+          "var_residua_dopo_tendenza": 0.010744292296180109,
+          "autocorr_lag1": -0.24494286736949217,
+          "pendenza_per_passo": -0.00043962466537277815
+        },
+        {
+          "semi": 205,
+          "var_totale": 0.024466541482730298,
+          "var_residua_dopo_tendenza": 0.025297782395717294,
+          "autocorr_lag1": 0.14431906900490551,
+          "pendenza_per_passo": -0.0037804811423436126
+        },
+        {
+          "semi": 206,
+          "var_totale": 0.009018613683961419,
+          "var_residua_dopo_tendenza": 0.009494885516033953,
+          "autocorr_lag1": 0.08562337306637323,
+          "pendenza_per_passo": -0.000818692067714142
+        }
+      ],
+      "150": [
+        {
+          "semi": 201,
+          "var_totale": 0.005008352365133743,
+          "var_residua_dopo_tendenza": 0.0050680741822779615,
+          "autocorr_lag1": 0.08383345495243691,
+          "pendenza_per_passo": -0.0024320416425679635
+        },
+        {
+          "semi": 202,
+          "var_totale": 0.034585511083740375,
+          "var_residua_dopo_tendenza": 0.035799227161979405,
+          "autocorr_lag1": -0.047796447797964686,
+          "pendenza_per_passo": -0.004376736463202633
+        },
+        {
+          "semi": 203,
+          "var_totale": 0.04928514226787883,
+          "var_residua_dopo_tendenza": 0.04812884966123039,
+          "autocorr_lag1": -0.012319021380406444,
+          "pendenza_per_passo": 0.010266992823383798
+        },
+        {
+          "semi": 204,
+          "var_totale": 0.01352482342491942,
+          "var_residua_dopo_tendenza": 0.011808806337615026,
+          "autocorr_lag1": 0.19439038599233546,
+          "pendenza_per_passo": 0.008172310759661485
+        },
+        {
+          "semi": 205,
+          "var_totale": 0.021156625363531405,
+          "var_residua_dopo_tendenza": 0.021025683952916614,
+          "autocorr_lag1": -0.05224467492711923,
+          "pendenza_per_passo": 0.005946322646344755
+        },
+        {
+          "semi": 206,
+          "var_totale": 0.017481400933369765,
+          "var_residua_dopo_tendenza": 0.018082503800543725,
+          "autocorr_lag1": -0.18695605170924712,
+          "pendenza_per_passo": -0.0031650224967399543
+        }
+      ]
+    },
+    "SD_logit_medie_D_samp": {
+      "20": 0.14214206951720007,
+      "40": 0.15555858850893284,
+      "60": 0.24702584080125115,
+      "80": 0.4102870195380167,
+      "100": 0.49948619085030993,
+      "120": 0.749845792366707,
+      "150": 1.6831933252781506
+    },
+    "corse_vicine_ai_limiti_D_samp_entro_0.12": {
+      "20": 0,
+      "40": 0,
+      "60": 0,
+      "80": 0,
+      "100": 0,
+      "120": 0,
+      "150": 2
+    },
+    "n_fail_terminated_medio_per_passo": {
+      "80": 20.258333333333333,
+      "150": 10.458333333333334
+    },
+    "media_D_seq_meno_media_D_samp": {
+      "20": 0.08113563981611704,
+      "40": 0.08321553178232022,
+      "60": -0.0015312915168995134,
+      "80": -0.23865071659403148,
+      "100": -0.3073443502949923,
+      "120": -0.3510754808246035,
+      "150": -0.3844847311214793
+    }
+  }
+}
