@@ -2,7 +2,7 @@
 
 This work was done in a private git repository. Its commit metadata contains a personal e-mail address, so
 the history is not published. Below is every commit of that repository that touched this folder, oldest first
-(95 commits, up to `3309a07`). Commit dates are written by the author's computer: they are a record,
+(98 commits, up to `f647bcf`). Commit dates are written by the author's computer: they are a record,
 not a proof. The checks that do not depend on trusting me are the content hashes and Kaggle's own timestamps
 (see README.md, "Provenance"). Commit messages are in Italian; `[claude]` marks commits made by the AI agent.
 The messages of the commits about a private letter to the paper's authors are withheld; the commits are listed.
@@ -104,3 +104,6 @@ The messages of the commits about a private letter to the paper's authors are wi
 | `aa60845` | 2026-10-24T18:47:48+02:00 | [claude] Termometro: nella revisione di Codex del README il link usa il percorso relativo invece di quello del PC (contenuto invariato) |
 | `c0dbbe3` | 2026-10-24T19:00:24+02:00 | [claude] Termometro, fase 2: correzioni dopo il controllo indipendente (ripetibilità del termometro, ordine debole, 22,7 GB, notebook privati, file .pt); ricalcolo indipendente CONFERMATO; prompt accorciato; log vuoto escluso |
 | `3309a07` | 2026-10-24T19:10:25+02:00 | [claude] Termometro: README precisato dopo il controllo finale (1,7 volte, previsioni pari con la ripetizione, rimandi ai file, ordine debole anche nella lettura, notebook mai lanciati) |
+| `ed85fc9` | 2026-10-24T19:11:09+02:00 | [claude] Termometro: elenco esatto dei file rigenerato |
+| `365a110` | 2026-10-24T20:24:32+02:00 | [claude] Termometro: README con i link ai notebook e ai dataset Kaggle della fase 2 resi pubblici il 24/10 e al dataset della fase 1b |
+| `f647bcf` | 2026-10-24T20:27:58+02:00 | [claude] Termometro: README, quali dataset legge ciascun notebook della fase 2 (dopo il controllo separato) |

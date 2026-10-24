@@ -266,10 +266,22 @@ publish, so I publish the files and the list of commits (`PROVENANCE.md`) instea
   times: [prediction](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-1-previsione),
   [runs](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-1-corse) and
   [phase 1b](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-1b). The frozen code they read is the Kaggle dataset
-  [termometro-codice-congelato](https://www.kaggle.com/datasets/emanuelerizzan/termometro-codice-congelato).
-- **Phase 2:** its Kaggle notebooks are private for now, so for phase 2 there are no public third-party timestamps.
-  The hashes of the SmolLM2 prediction were committed to git before the runs, and the runs notebook as it was
-  launched (`kaggle/push_B2_smol17/fase2_B_smol17.ipynb`) contains them.
+  [termometro-codice-congelato](https://www.kaggle.com/datasets/emanuelerizzan/termometro-codice-congelato), and for
+  phase 1b also [termometro-fase1b-codice](https://www.kaggle.com/datasets/emanuelerizzan/termometro-fase1b-codice).
+- **Phase 2:** the Kaggle notebooks keep their versions with server times too:
+  [Qwen2.5-0.5B](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-2-q05-previsione),
+  [OLMo-2-1B](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-2-olmo1-previsione),
+  [SmolLM2 prediction](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-2-smol17-previsione),
+  [SmolLM2 runs](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-2-smol17-corse), and the 3-number fix for
+  [Qwen2.5-0.5B](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-2-q05-3n-previsione) and
+  [OLMo-2-1B](https://www.kaggle.com/code/emanuelerizzan/termometro-fase-2-olmo1-3n-previsione). All six read
+  termometro-codice-congelato and
+  [termometro-partenze-fase-2](https://www.kaggle.com/datasets/emanuelerizzan/termometro-partenze-fase-2) (the warm
+  starts of the three families); the SmolLM2 runs also read
+  [termometro-fase2-codice](https://www.kaggle.com/datasets/emanuelerizzan/termometro-fase2-codice), and the two
+  3-number notebooks also read
+  [termometro-fase2-3numeri](https://www.kaggle.com/datasets/emanuelerizzan/termometro-fase2-3numeri). The hashes of the SmolLM2 prediction were committed to git before the runs, and the
+  runs notebook as it was launched (`kaggle/push_B2_smol17/fase2_B_smol17.ipynb`) contains them.
 
 ## Files
 
