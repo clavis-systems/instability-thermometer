@@ -7,4 +7,5 @@
   da sola, come previsto, prima del termometro: niente previsione, niente corse.
 - Regola congelata (`PREMESSA_FASE2.md`, `PREMESSA.md` tabella dei cancelli): la famiglia si ferma e si riporta così.
   L'unica azione permessa, una volta e decisa da Emanuele, è rifarla con compiti a 3 numeri.
-- Decisione di Emanuele: in attesa.
+- Decisione di Emanuele (22/10/2026, 19:34): "Sì: rifai Qwen2.5-0.5B con i compiti a 3 numeri, una volta, dopo OLMo e
+  SmolLM2." Bozza dell'aggiunta: `PREMESSA_FASE2_3NUMERI.md`, da congelare prima del lancio.

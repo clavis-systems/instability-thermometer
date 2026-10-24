@@ -1,0 +1,48 @@
+{
+ "families": {
+  "q15": {
+   "R": 0.7803674908582431,
+   "verdict": "RIFERIMENTO (non cieca)",
+   "predicted": 0.05154841773202174,
+   "measured": 0.04022670940325037
+  },
+  "q05": {
+   "status": "stopped by a gate or missing"
+  },
+  "olmo1": {
+   "status": "stopped by a gate or missing"
+  },
+  "smol17": {
+   "R": 1.9776947158799771,
+   "verdict": "PROMOSSO",
+   "predicted": 0.026424449627370655,
+   "measured": 0.05225949439808757
+  }
+ },
+ "n_families_ranked": 2,
+ "order_vs_q15_agree": "0/1",
+ "common_step": 10,
+ "not_ranked_ESS_below_100": [],
+ "verdicts_new_families": {
+  "smol17": {
+   "verdict": "PROMOSSO",
+   "test_step": 10,
+   "R": 1.9776947158799771
+  }
+ },
+ "promosse_tra_le_3_nuove": "1/3",
+ "scomposizione": {
+  "q15": {
+   "esposizione": 29.98,
+   "bilico": 0.249775,
+   "accoppiamento_quota_ragionamento": 0.44828921217818096,
+   "sigma_analitica": 0.015323592685973029
+  },
+  "smol17": {
+   "esposizione": 30.34,
+   "bilico": 0.2379,
+   "accoppiamento_quota_ragionamento": 0.33599995313412084,
+   "sigma_analitica": 0.008263321659840351
+  }
+ }
+}

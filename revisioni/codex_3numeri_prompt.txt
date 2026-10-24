@@ -1,0 +1,14 @@
+Sei un revisore indipendente di uno studio pre-registrato. Rispondi in italiano. Sei in sola lettura: non modificare nessun file.
+
+Cartella di lavoro: strumenti/termometro.
+
+Contesto: la fase 2 è congelata (FASE2_CONGELATA.txt). Due famiglie (q05, olmo1) si sono fermate al cancello G1 (riuscita al passo 0 8/416 = 1,92% < 2%; verifica del conteggio in risultati/fase2_verifica_g1/). La regola congelata (PREMESSA_FASE2.md e tabella dei cancelli in PREMESSA.md) permette una sola azione, decisa da Emanuele: "compiti con 3 numeri". Emanuele l'ha decisa per q05 e olmo1, e per smol17 se si ferma a G1. Inoltre smol17 ha una deviazione tecnica D2 (DEVIAZIONI_FASE2.md: scarico senza onnx/).
+
+Da controllare, prima del congelamento:
+1. PREMESSA_FASE2_3NUMERI.md (bozza dell'aggiunta): la lettura "3 numeri solo nei compiti, partenza SFT a 4 numeri invariata" è la lettura giusta della regola? È dichiarato bene cosa è stato visto prima?
+2. fase2_3numeri.py: cambia davvero solo countdown.make_instance (range(4) -> range(3))? Il resto di termometro.py congelato resta identico? runpy e TERMO_CODICE sono usati correttamente? Ci sono effetti collaterali (per esempio sft_data, semi, pool di fallimenti, reachable con 3 numeri, bersagli 10-200)?
+3. kaggle/crea_notebook_3numeri.py e i notebook kaggle/fase2_{A,B}_{q05,olmo1,smol17}_3n.ipynb: le tre modifiche rispetto ai notebook congelati (per smol17 rispetto alle copie _d2) sono le sole? Il controllo dell'impronta di fase2_3numeri.py è corretto? Manca qualcosa (per esempio nomi dei kernel, nomi delle cartelle di uscita, il notebook B2 che deve leggere l'uscita di A2 a 3 numeri e non quella a 4)?
+4. DEVIAZIONI_FASE2.md (D2): corretta e sufficiente?
+5. Rischi per la validità: con 3 numeri i compiti cambiano natura; il confronto tra famiglie resta interpretabile? Cosa va scritto nei limiti?
+
+Consegna: al massimo 450 parole. Una riga di verdetto (PRONTO / PRONTO DOPO CORREZIONI / NON PRONTO), poi i problemi in ordine di gravità con la correzione proposta, e cosa non hai potuto verificare.

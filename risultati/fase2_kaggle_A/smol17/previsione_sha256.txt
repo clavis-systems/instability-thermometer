@@ -1,0 +1,8 @@
+e643e367347dcae0bfa69746bc97397ed19a70dc7180b4660454fa1c1a4c6927  thermo_s1.json
+19bef155c8d5cd7e0dda00880112182790196cb2192dc440791f2eebf3218d6d  thermo_s2.json
+d05b1cc0c3f1a4c384cb3f394c1de9a74ebaa986a678e1c944f1d5069a13fb2a  gates.json
+83f3ac47d987fd03a895d65a1a06c544456961b353b1f9204e060a465fcc7c4d  gates_pool.json
+b73faa2611ed940ab0c63f5a0774e58607e0f53bb3d33fd88d241741454f7bda  pool.json
+e286e9912919231970f6c127acb6592d6adfaa34ae8fa2e70c1d51407ab629ba  vettori_s1.pt
+d9d840db83ccdc1262c74502f8aebbc8aae24836dd60320bcbb9562ab60d95bf  gradienti_s1.pt
+codice congelato: # congelamento del 20/10/2026 10:47, file uguali al commit che aggiunge CONGELATA.txt (genitore a7656b3)

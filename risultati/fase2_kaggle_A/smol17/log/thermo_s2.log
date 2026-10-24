@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:   0%|          | 1/218 [00:00<02:15,  1.60it/s]Loading weights:  21%|██        | 46/218 [00:00<00:02, 82.96it/s]Loading weights:  32%|███▏      | 70/218 [00:01<00:02, 68.01it/s]Loading weights:  39%|███▉      | 86/218 [00:01<00:02, 63.06it/s]Loading weights:  45%|████▍     | 98/218 [00:01<00:01, 66.21it/s]Loading weights:  50%|█████     | 109/218 [00:01<00:01, 67.40it/s]Loading weights:  55%|█████▍    | 119/218 [00:01<00:01, 67.19it/s]Loading weights:  59%|█████▊    | 128/218 [00:02<00:01, 65.66it/s]Loading weights:  62%|██████▏   | 136/218 [00:02<00:01, 62.53it/s]Loading weights:  66%|██████▌   | 143/218 [00:02<00:01, 59.61it/s]Loading weights:  69%|██████▉   | 150/218 [00:02<00:01, 56.17it/s]Loading weights:  72%|███████▏  | 156/218 [00:02<00:01, 54.70it/s]Loading weights:  76%|███████▌  | 165/218 [00:02<00:00, 56.18it/s]Loading weights:  80%|███████▉  | 174/218 [00:02<00:00, 62.36it/s]Loading weights:  84%|████████▍ | 183/218 [00:03<00:00, 66.82it/s]Loading weights:  92%|█████████▏| 201/218 [00:03<00:00, 79.63it/s]Loading weights: 100%|██████████| 218/218 [00:03<00:00, 66.56it/s]
+thermo seed 2 batch 1/25: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.39285714285714285, 'n_fail_terminated': 28, 'seconds': 70.0}
+thermo seed 2 batch 2/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.41935483870967744, 'n_fail_terminated': 31, 'seconds': 59.7}
+thermo seed 2 batch 3/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.6129032258064516, 'n_fail_terminated': 31, 'seconds': 56.1}
+thermo seed 2 batch 4/25: {'solve': 0.15625, 'informative': True, 'disclosure_sampled': 0.4074074074074074, 'n_fail_terminated': 27, 'seconds': 70.9}
+thermo seed 2 batch 5/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.4, 'n_fail_terminated': 30, 'seconds': 61.5}
+thermo seed 2 batch 6/25: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.2857142857142857, 'n_fail_terminated': 28, 'seconds': 70.4}
+thermo seed 2 batch 7/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5806451612903226, 'n_fail_terminated': 31, 'seconds': 55.8}
+thermo seed 2 batch 8/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.45161290322580644, 'n_fail_terminated': 31, 'seconds': 55.9}
+thermo seed 2 batch 9/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.22580645161290322, 'n_fail_terminated': 31, 'seconds': 58.1}
+thermo seed 2 batch 10/25: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.35714285714285715, 'n_fail_terminated': 28, 'seconds': 56.0}
+thermo seed 2 batch 11/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.4666666666666667, 'n_fail_terminated': 30, 'seconds': 55.7}
+thermo seed 2 batch 12/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5625, 'n_fail_terminated': 32, 'seconds': 46.5}
+thermo seed 2 batch 13/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.6666666666666666, 'n_fail_terminated': 30, 'seconds': 55.8}
+thermo seed 2 batch 14/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.4, 'n_fail_terminated': 30, 'seconds': 65.2}
+thermo seed 2 batch 15/25: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.23333333333333334, 'n_fail_terminated': 30, 'seconds': 56.2}
+thermo seed 2 batch 16/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3125, 'n_fail_terminated': 32, 'seconds': 54.7}
+thermo seed 2 batch 17/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.42857142857142855, 'n_fail_terminated': 28, 'seconds': 67.0}
+thermo seed 2 batch 18/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.34375, 'n_fail_terminated': 32, 'seconds': 45.0}
+thermo seed 2 batch 19/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.375, 'n_fail_terminated': 32, 'seconds': 47.7}
+thermo seed 2 batch 20/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.1875, 'n_fail_terminated': 32, 'seconds': 43.9}
+thermo seed 2 batch 21/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.34375, 'n_fail_terminated': 32, 'seconds': 52.7}
+thermo seed 2 batch 22/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.25, 'n_fail_terminated': 32, 'seconds': 52.1}
+thermo seed 2 batch 23/25: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.41935483870967744, 'n_fail_terminated': 31, 'seconds': 59.4}
+thermo seed 2 batch 24/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3793103448275862, 'n_fail_terminated': 29, 'seconds': 55.9}
+thermo seed 2 batch 25/25: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3225806451612903, 'n_fail_terminated': 31, 'seconds': 55.8}
+PREVISIONE: {"D_seq_0": 0.39, "D_tf_0": 0.3590417495291351, "informative": 0.44, "pred_SD_lin_seq_40": 0.09237969113758408, "pred_SD_lin_tf_40": 0.003531359862182204, "analytic_seq_40": 0.09678201031142865, "D_false_0": 0.6, "pred_SD_lin_false_40": 0.087724228718814}

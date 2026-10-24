@@ -1,0 +1,20 @@
+SmolLM2: corse [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112] n = 12  floor_seq = 2.418594937573498e-06
+SmolLM2 passo 5: SD=0.03768 SDcorr=0.03768 prev=0.01820 R=2.070 IC95=[1.466, 3.514] (x0.708..x1.698) ESS med=286.0 min=191.9 -> H1 al passo: INDIZIO
+SmolLM2 passo 10: SD=0.05226 SDcorr=0.05226 prev=0.02642 R=1.978 IC95=[1.401, 3.358] (x0.708..x1.698) ESS med=180.8 min=111.9 -> H1 al passo: PROMOSSO
+SmolLM2 passo 20: SD=0.07178 SDcorr=0.07178 prev=0.03869 R=1.855 IC95=[1.314, 3.150] (x0.708..x1.698) ESS med=118.8 min=39.8 -> H1 al passo: PROMOSSO
+SmolLM2 verdetto H1 (regola passo 10, riserva 5): passo 10 -> PROMOSSO
+Qwen2.5-1.5B: corse [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112] n = 12  floor_seq = 1.6029213299420032e-06
+Qwen passo 5: SD=0.02360 SDcorr=0.02360 prev=0.03416 R=0.691 IC95=[0.489, 1.173] ESS med=228.4 min=107.3 -> PROMOSSO
+Qwen passo 10: SD=0.04023 SDcorr=0.04023 prev=0.05155 R=0.780 IC95=[0.553, 1.325] ESS med=147.6 min=34.7 -> PROMOSSO
+Qwen passo 20: SD=0.11666 SDcorr=0.11666 prev=0.07429 R=1.570 IC95=[1.112, 2.666] ESS med=44.4 min=5.1 -> NON CONCLUSIVO
+ORDINE
+passo 5: prevista Smol 0.0182 vs Qwen 0.0342 -> Smol meno dispersa; misurata(corretta) Smol 0.0377 vs Qwen 0.0236 -> Smol piu dispersa; ordine uguale: False
+passo 10: prevista Smol 0.0264 vs Qwen 0.0515 -> Smol meno dispersa; misurata(corretta) Smol 0.0523 vs Qwen 0.0402 -> Smol piu dispersa; ordine uguale: False
+  (extra) Smol passo 5: R=2.06980 IC=[1.46623, 3.51426] fattori=0.70840/1.69788; IC con fattori arrotondati 0.71/1.70 = [1.470, 3.519]
+  (extra) Smol passo 10: R=1.97769 IC=[1.40099, 3.35788] fattori=0.70840/1.69788; IC con fattori arrotondati 0.71/1.70 = [1.404, 3.362]
+  (extra) Smol passo 20: R=1.85501 IC=[1.31408, 3.14958] fattori=0.70840/1.69788; IC con fattori arrotondati 0.71/1.70 = [1.317, 3.154]
+  (extra) passo 5: SD misurata Smol/Qwen = 1.596, IC95 [0.856, 2.975] (F 11,11); previsione Smol/Qwen = 0.533
+  (extra) passo 10: SD misurata Smol/Qwen = 1.299, IC95 [0.697, 2.421] (F 11,11); previsione Smol/Qwen = 0.513
+Ripetibilita (thermo_s2) passo 10: prevista=0.04585 R con s2=1.140; rapporto s2/s1 previste = 1.735  (pavimento s1 usato: s2 non ne ha)
+  (extra) passo 5: prevista s2=0.03004 R con s2=1.254
+  (extra) passo 20: prevista s2=0.06722 R con s2=1.068

@@ -1,0 +1,16 @@
+{
+ "casi": 100,
+ "casi_attesi": 100,
+ "accordi": 100,
+ "quota_accordo": 1.0,
+ "soglia": 0.95,
+ "PASSA": true,
+ "tabella": {
+  "rilevatore 0 / indipendente 0": 0,
+  "rilevatore 0 / indipendente 1": 0,
+  "rilevatore 1 / indipendente 0": 0,
+  "rilevatore 1 / indipendente 1": 100
+ },
+ "dubbi_indipendente": 3,
+ "disaccordi": []
+}

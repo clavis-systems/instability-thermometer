@@ -1,0 +1,15 @@
+Sei un revisore indipendente. Rispondi in italiano. Sei in sola lettura: non modificare nessun file.
+
+Cartella di lavoro: strumenti/termometro.
+
+Secondo e ultimo controllo della versione a 3 numeri della fase 2, prima del congelamento. Il tuo primo controllo è in revisioni/codex_3numeri.md (PRONTO DOPO CORREZIONI, 4 punti). Correzioni fatte (git diff deb20bb HEAD -- PREMESSA_FASE2_3NUMERI.md fase2_3numeri.py DEVIAZIONI_FASE2.md kaggle/crea_notebook_3numeri.py kaggle/fase2_*_3n.ipynb):
+1. uscite in <famiglia>_3n; A2 scrive TRE_NUMERI.txt con l'impronta di fase2_3numeri.py; B2 legge solo da <famiglia>_3n (previsione e corse precedenti) e controlla quel segno;
+2. nella bozza, sezione "Come si legge": due regimi riportati separati, niente graduatoria comune;
+3. impronta completa in D2;
+4. fase2_3numeri.py rifiuta il comando sft.
+
+Controlla solo:
+- le quattro correzioni sono giuste e complete? In particolare nei notebook B2: restano altri punti che leggono uscite a 4 numeri (per esempio glob su /<famiglia>/ per pool.json, thermo_s1.json, gradienti, sft)? Il segno TRE_NUMERI.txt è scritto prima che l'uscita possa essere usata?
+- c'è ancora qualcosa che impedisce il congelamento?
+
+Consegna: al massimo 250 parole. Una riga di verdetto (PRONTO / PRONTO DOPO CORREZIONI / NON PRONTO), poi solo i problemi con la correzione proposta.

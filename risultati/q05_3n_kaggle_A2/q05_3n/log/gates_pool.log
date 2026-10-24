@@ -1,0 +1,6 @@
+{
+ "G0_pure_sampling": true,
+ "G1_solve_2_to_60pct": false,
+ "G3_pool_disclosure_10_to_90pct": true,
+ "ALL_PASS": false
+}

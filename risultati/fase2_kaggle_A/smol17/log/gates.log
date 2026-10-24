@@ -1,0 +1,20 @@
+{
+ "G0_pure_sampling": true,
+ "G1_solve_2_to_60pct": true,
+ "G2_informative_batches_ge_30pct": true,
+ "G3_pool_disclosure_10_to_90pct": true,
+ "G4_pred_SD_ge_5x_floor": true,
+ "G6_ESS_ge_70pct_under_tiny_perturbation": true,
+ "info": {
+  "solve_rate": 0.024553571428571428,
+  "informative": 0.4,
+  "pool_disclosure": 0.39,
+  "pred_SD_lin_seq_40": 0.056145896881511344,
+  "floor_seq": 2.418594937573498e-06,
+  "D_tf_alive_frac": 0.05,
+  "retest_ratio_s2_s1": 1.645350707150328,
+  "sampling_processors": []
+ },
+ "D_tf_reported_as_flat": true,
+ "ALL_PASS": true
+}

@@ -1,0 +1,62 @@
+Loading weights:   0%|          | 0/218 [00:00<?, ?it/s]Loading weights:   0%|          | 1/218 [00:00<00:58,  3.72it/s]Loading weights:  14%|█▍        | 31/218 [00:00<00:02, 91.16it/s]Loading weights:  20%|██        | 44/218 [00:00<00:02, 86.65it/s]Loading weights:  25%|██▌       | 55/218 [00:00<00:02, 79.95it/s]Loading weights:  29%|██▉       | 64/218 [00:00<00:02, 71.64it/s]Loading weights:  33%|███▎      | 72/218 [00:01<00:02, 66.48it/s]Loading weights:  36%|███▌      | 79/218 [00:01<00:02, 61.63it/s]Loading weights:  39%|███▉      | 86/218 [00:01<00:02, 57.69it/s]Loading weights:  43%|████▎     | 93/218 [00:01<00:02, 57.23it/s]Loading weights:  47%|████▋     | 102/218 [00:01<00:01, 58.91it/s]Loading weights:  51%|█████     | 111/218 [00:01<00:01, 59.16it/s]Loading weights:  55%|█████▌    | 120/218 [00:01<00:01, 59.61it/s]Loading weights:  59%|█████▉    | 129/218 [00:02<00:01, 57.82it/s]Loading weights:  63%|██████▎   | 138/218 [00:02<00:01, 59.73it/s]Loading weights:  67%|██████▋   | 147/218 [00:02<00:01, 60.47it/s]Loading weights:  72%|███████▏  | 156/218 [00:02<00:01, 61.94it/s]Loading weights:  76%|███████▌  | 165/218 [00:02<00:00, 58.36it/s]Loading weights:  80%|███████▉  | 174/218 [00:02<00:00, 60.95it/s]Loading weights:  84%|████████▍ | 183/218 [00:02<00:00, 61.09it/s]Loading weights:  88%|████████▊ | 192/218 [00:03<00:00, 61.05it/s]Loading weights:  92%|█████████▏| 201/218 [00:03<00:00, 61.16it/s]Loading weights:  96%|█████████▋| 210/218 [00:03<00:00, 61.16it/s]Loading weights: 100%|██████████| 218/218 [00:03<00:00, 63.80it/s]
+thermo seed 1 batch 1/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5625, 'n_fail_terminated': 32, 'seconds': 50.2}
+thermo seed 1 batch 2/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.21875, 'n_fail_terminated': 32, 'seconds': 48.9}
+thermo seed 1 batch 3/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.41935483870967744, 'n_fail_terminated': 31, 'seconds': 56.2}
+thermo seed 1 batch 4/50: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.36666666666666664, 'n_fail_terminated': 30, 'seconds': 66.3}
+thermo seed 1 batch 5/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.2903225806451613, 'n_fail_terminated': 31, 'seconds': 55.9}
+thermo seed 1 batch 6/50: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.4642857142857143, 'n_fail_terminated': 28, 'seconds': 67.8}
+thermo seed 1 batch 7/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.28125, 'n_fail_terminated': 32, 'seconds': 46.8}
+thermo seed 1 batch 8/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.4375, 'n_fail_terminated': 32, 'seconds': 49.7}
+thermo seed 1 batch 9/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5, 'n_fail_terminated': 32, 'seconds': 50.9}
+thermo seed 1 batch 10/50: {'solve': 0.09375, 'informative': True, 'disclosure_sampled': 0.2413793103448276, 'n_fail_terminated': 29, 'seconds': 65.4}
+thermo seed 1 batch 11/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3870967741935484, 'n_fail_terminated': 31, 'seconds': 56.1}
+thermo seed 1 batch 12/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.41935483870967744, 'n_fail_terminated': 31, 'seconds': 56.1}
+thermo seed 1 batch 13/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.45161290322580644, 'n_fail_terminated': 31, 'seconds': 56.0}
+thermo seed 1 batch 14/50: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.4666666666666667, 'n_fail_terminated': 30, 'seconds': 61.1}
+thermo seed 1 batch 15/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5, 'n_fail_terminated': 32, 'seconds': 48.6}
+thermo seed 1 batch 16/50: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.4482758620689655, 'n_fail_terminated': 29, 'seconds': 66.2}
+thermo seed 1 batch 17/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5161290322580645, 'n_fail_terminated': 31, 'seconds': 56.0}
+thermo seed 1 batch 18/50: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.4642857142857143, 'n_fail_terminated': 28, 'seconds': 58.9}
+thermo seed 1 batch 19/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3225806451612903, 'n_fail_terminated': 31, 'seconds': 55.4}
+thermo seed 1 batch 20/50: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.5, 'n_fail_terminated': 30, 'seconds': 65.6}
+thermo seed 1 batch 21/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.4838709677419355, 'n_fail_terminated': 31, 'seconds': 56.2}
+thermo seed 1 batch 22/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.53125, 'n_fail_terminated': 32, 'seconds': 51.3}
+thermo seed 1 batch 23/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3125, 'n_fail_terminated': 32, 'seconds': 55.5}
+thermo seed 1 batch 24/50: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.36666666666666664, 'n_fail_terminated': 30, 'seconds': 66.2}
+thermo seed 1 batch 25/50: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.39285714285714285, 'n_fail_terminated': 28, 'seconds': 65.0}
+thermo seed 1 batch 26/50: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.41379310344827586, 'n_fail_terminated': 29, 'seconds': 66.1}
+thermo seed 1 batch 27/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5483870967741935, 'n_fail_terminated': 31, 'seconds': 56.1}
+thermo seed 1 batch 28/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3548387096774194, 'n_fail_terminated': 31, 'seconds': 56.1}
+thermo seed 1 batch 29/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5, 'n_fail_terminated': 32, 'seconds': 49.6}
+thermo seed 1 batch 30/50: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.5, 'n_fail_terminated': 30, 'seconds': 65.3}
+thermo seed 1 batch 31/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3870967741935484, 'n_fail_terminated': 31, 'seconds': 56.0}
+thermo seed 1 batch 32/50: {'solve': 0.21875, 'informative': True, 'disclosure_sampled': 0.5416666666666666, 'n_fail_terminated': 24, 'seconds': 86.8}
+thermo seed 1 batch 33/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.41935483870967744, 'n_fail_terminated': 31, 'seconds': 56.2}
+thermo seed 1 batch 34/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5625, 'n_fail_terminated': 32, 'seconds': 48.5}
+thermo seed 1 batch 35/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.3870967741935484, 'n_fail_terminated': 31, 'seconds': 56.0}
+thermo seed 1 batch 36/50: {'solve': 0.09375, 'informative': True, 'disclosure_sampled': 0.41379310344827586, 'n_fail_terminated': 29, 'seconds': 59.3}
+thermo seed 1 batch 37/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.36666666666666664, 'n_fail_terminated': 30, 'seconds': 56.1}
+thermo seed 1 batch 38/50: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.4, 'n_fail_terminated': 30, 'seconds': 61.7}
+thermo seed 1 batch 39/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.5161290322580645, 'n_fail_terminated': 31, 'seconds': 56.2}
+thermo seed 1 batch 40/50: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.43333333333333335, 'n_fail_terminated': 30, 'seconds': 68.0}
+thermo seed 1 batch 41/50: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.3793103448275862, 'n_fail_terminated': 29, 'seconds': 67.6}
+thermo seed 1 batch 42/50: {'solve': 0.15625, 'informative': True, 'disclosure_sampled': 0.4230769230769231, 'n_fail_terminated': 26, 'seconds': 73.5}
+thermo seed 1 batch 43/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.4838709677419355, 'n_fail_terminated': 31, 'seconds': 56.0}
+thermo seed 1 batch 44/50: {'solve': 0.03125, 'informative': True, 'disclosure_sampled': 0.4666666666666667, 'n_fail_terminated': 30, 'seconds': 66.4}
+thermo seed 1 batch 45/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.40625, 'n_fail_terminated': 32, 'seconds': 50.1}
+thermo seed 1 batch 46/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.34375, 'n_fail_terminated': 32, 'seconds': 45.0}
+thermo seed 1 batch 47/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.53125, 'n_fail_terminated': 32, 'seconds': 55.7}
+thermo seed 1 batch 48/50: {'solve': 0.0625, 'informative': True, 'disclosure_sampled': 0.43333333333333335, 'n_fail_terminated': 30, 'seconds': 68.0}
+thermo seed 1 batch 49/50: {'solve': 0.0, 'informative': False, 'disclosure_sampled': 0.41935483870967744, 'n_fail_terminated': 31, 'seconds': 56.1}
+thermo seed 1 batch 50/50: {'solve': 0.125, 'informative': True, 'disclosure_sampled': 0.46153846153846156, 'n_fail_terminated': 26, 'seconds': 75.0}
+one-step check: {'batch': 3, 'lr_mult': 1, 'true_dseq': 0.009521709938601797, 'pred_dseq': 0.009345621801912785, 'true_dtf': -0.00017589413290119982, 'pred_dtf': -0.00017298120656050742, 'true_dfalse': -0.009366090303311703, 'pred_dfalse': -0.009362272918224335}
+one-step check: {'batch': 3, 'lr_mult': 10, 'true_dseq': 0.09992505899828658, 'pred_dseq': 0.0934562236070633, 'true_dtf': -0.0020503989419221047, 'pred_dtf': -0.0017298120073974133, 'true_dfalse': -0.09172556499500639, 'pred_dfalse': -0.09362273663282394}
+one-step check: {'batch': 5, 'lr_mult': 1, 'true_dseq': 0.010373666143335902, 'pred_dseq': 0.006838930305093527, 'true_dtf': 0.00036774473236939054, 'pred_dtf': 0.00038172112544998527, 'true_dfalse': -0.007987501771873351, 'pred_dfalse': -0.0035421913489699364}
+one-step check: {'batch': 5, 'lr_mult': 10, 'true_dseq': -0.292429973671627, 'pred_dseq': 0.06838930398225784, 'true_dtf': 0.002768513393632044, 'pred_dtf': 0.003817211138084531, 'true_dfalse': 0.3024127752333372, 'pred_dfalse': -0.03542191535234451}
+one-step check: {'batch': 9, 'lr_mult': 1, 'true_dseq': -0.018050504636379583, 'pred_dseq': -0.018699558451771736, 'true_dtf': 0.00012571566571428772, 'pred_dtf': 0.00012955513375345618, 'true_dfalse': 0.018883579952995166, 'pred_dfalse': 0.019267290830612183}
+one-step check: {'batch': 9, 'lr_mult': 10, 'true_dseq': -0.23564043783258667, 'pred_dseq': -0.18699558079242706, 'true_dtf': 0.0008739528722163659, 'pred_dtf': 0.0012955514248460531, 'true_dfalse': 0.24473336386312539, 'pred_dfalse': 0.19267290830612183}
+one-step check: {'batch': 13, 'lr_mult': 1, 'true_dseq': 0.004578569987372161, 'pred_dseq': 0.004756487440317869, 'true_dtf': 0.002650403827214709, 'pred_dtf': 0.0031390045769512653, 'true_dfalse': 0.0006140319490952617, 'pred_dfalse': 0.0026632132939994335}
+one-step check: {'batch': 13, 'lr_mult': 10, 'true_dseq': -0.11314084287262505, 'pred_dseq': 0.04756486788392067, 'true_dtf': 0.0829410013003008, 'pred_dtf': 0.03139004111289978, 'true_dfalse': 0.12302599291405159, 'pred_dfalse': 0.026632128283381462}
+one-step check: {'batch': 15, 'lr_mult': 1, 'true_dseq': 0.018256097419103556, 'pred_dseq': 0.01737838238477707, 'true_dtf': 8.844565725124598e-05, 'pred_dtf': 8.75644909683615e-05, 'true_dfalse': -0.017454075596654683, 'pred_dfalse': -0.016748419031500816}
+one-step check: {'batch': 15, 'lr_mult': 10, 'true_dseq': 0.051778767321441044, 'pred_dseq': 0.17378383874893188, 'true_dtf': 0.000961416100647039, 'pred_dtf': 0.0008756450843065977, 'true_dfalse': -0.04321626562972669, 'pred_dfalse': -0.16748419404029846}
+PREVISIONE: {"D_seq_0": 0.39, "D_tf_0": 0.3590417495291351, "informative": 0.4, "pred_SD_lin_seq_40": 0.056145896881511344, "pred_SD_lin_tf_40": 0.011380456124690264, "analytic_seq_40": 0.05933566885539104, "D_false_0": 0.6, "pred_SD_lin_false_40": 0.05597977541202951}

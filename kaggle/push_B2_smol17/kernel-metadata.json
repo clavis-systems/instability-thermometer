@@ -1,0 +1,20 @@
+{
+  "id": "emanuelerizzan/termometro-fase-2-smol17-corse",
+  "title": "termometro fase 2 smol17 corse",
+  "code_file": "fase2_B_smol17.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "emanuelerizzan/termometro-codice-congelato",
+    "emanuelerizzan/termometro-partenze-fase-2",
+    "emanuelerizzan/termometro-fase2-codice"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "emanuelerizzan/termometro-fase-2-smol17-previsione"
+  ]
+}

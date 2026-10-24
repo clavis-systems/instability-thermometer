@@ -1,0 +1,173 @@
+{
+ "n_runs": 12,
+ "H1": {
+  "T": 10,
+  "measured_SD_D_seq": 0.040226709435186324,
+  "floor_seq": 1.6029213299420032e-06,
+  "measured_SD_corrected": 0.04022670940325037,
+  "measured_SD_CI95": [
+   0.028497011472145294,
+   0.06850658171957255
+  ],
+  "predicted_SD_replay": 0.05154841773202174,
+  "R": 0.7803674908582431,
+  "R_CI95": [
+   0.5528202945100879,
+   1.3289754513069456
+  ],
+  "median_ESS": 147.60096936345815,
+  "min_ESS": 34.65046979489597,
+  "verdict_R_only": "PROMOSSO",
+  "verdict": "PROMOSSO",
+  "test_step": 10
+ },
+ "per_step": {
+  "5": {
+   "T": 5,
+   "measured_SD_D_seq": 0.023602473438018644,
+   "floor_seq": 1.6029213299420032e-06,
+   "measured_SD_corrected": 0.023602473383588823,
+   "measured_SD_CI95": [
+    0.016720233018333527,
+    0.04019530296222077
+   ],
+   "predicted_SD_replay": 0.034158258482490655,
+   "R": 0.6909741430666709,
+   "R_CI95": [
+    0.48949313463694966,
+    1.1767374786634592
+   ],
+   "median_ESS": 228.43229638977044,
+   "min_ESS": 107.341941670651,
+   "verdict_R_only": "PROMOSSO"
+  },
+  "10": {
+   "T": 10,
+   "measured_SD_D_seq": 0.040226709435186324,
+   "floor_seq": 1.6029213299420032e-06,
+   "measured_SD_corrected": 0.04022670940325037,
+   "measured_SD_CI95": [
+    0.028497011472145294,
+    0.06850658171957255
+   ],
+   "predicted_SD_replay": 0.05154841773202174,
+   "R": 0.7803674908582431,
+   "R_CI95": [
+    0.5528202945100879,
+    1.3289754513069456
+   ],
+   "median_ESS": 147.60096936345815,
+   "min_ESS": 34.65046979489597,
+   "verdict_R_only": "PROMOSSO"
+  },
+  "20": {
+   "T": 20,
+   "measured_SD_D_seq": 0.1166632543029476,
+   "floor_seq": 1.6029213299420032e-06,
+   "measured_SD_corrected": 0.11666325429193576,
+   "measured_SD_CI95": [
+    0.08264543993912833,
+    0.19867895938751556
+   ],
+   "predicted_SD_replay": 0.07428714534341982,
+   "R": 1.5704366314335636,
+   "R_CI95": [
+    1.1125133366892643,
+    2.6744729316094804
+   ],
+   "median_ESS": 44.35556908146961,
+   "min_ESS": 5.130084652667002,
+   "verdict_R_only": "PROMOSSO"
+  }
+ },
+ "secondary_step_role": "verdict step",
+ "H1_sensitivity_floor_1e-5": {
+  "T": 10,
+  "floor_1e-5": 5.141856055171204e-06,
+  "R": 0.7803674851027791,
+  "verdict_R_only": "PROMOSSO",
+  "same_verdict_R_only": true
+ },
+ "H6": {
+  "T": 10,
+  "measured_SD_corrected": 0.03791466019678332,
+  "predicted_SD_replay": 0.04778261421404853,
+  "R": 0.7934823328614796,
+  "verdict": "PROMOSSO",
+  "predicted_ratio_false_over_disclosure": 0.9269462830546997,
+  "ranking_scored": false,
+  "measured_ratio_false_over_disclosure": 0.9425245256008876,
+  "ranking_correct": null,
+  "measured_corr_seq_false": -0.5799665757179889
+ },
+ "linear_functionals": {
+  "T": 10,
+  "lin_seq": {
+   "measured_SD": 0.03789498945855532,
+   "predicted": 0.05154841773202174,
+   "R": 0.7351339017921991
+  },
+  "lin_tf": {
+   "measured_SD": 0.023559838037912943,
+   "predicted": 0.012651525778138478,
+   "R": 1.862213178952989
+  },
+  "rand1": {
+   "measured_SD": 0.24375827048975285,
+   "predicted": 0.2301737685341437,
+   "R": 1.0590184626255275
+  },
+  "rand2": {
+   "measured_SD": 0.3098777989370586,
+   "predicted": 0.21011638393611093,
+   "R": 1.4747912234739469
+  },
+  "rand3": {
+   "measured_SD": 0.271873043668503,
+   "predicted": 0.257066292992002,
+   "R": 1.0575989582460026
+  },
+  "rand4": {
+   "measured_SD": 0.2250177942502855,
+   "predicted": 0.22782574309300233,
+   "R": 0.9876750151032293
+  },
+  "rand5": {
+   "measured_SD": 0.2591541179838322,
+   "predicted": 0.2175481865875975,
+   "R": 1.1912492678006386
+  },
+  "lin_false": {
+   "measured_SD": 0.035233389998151066,
+   "predicted": 0.04778261421404853,
+   "R": 0.7373684043388342
+  }
+ },
+ "mean_D_seq": {
+  "5": 0.47413210961417374,
+  "10": 0.47604919254238603,
+  "20": 0.47870270582682295,
+  "0": 0.48500000000000004
+ },
+ "solve_mean_steps_16_20": 0.0375,
+ "files": [
+  "run_s101.json",
+  "run_s102.json",
+  "run_s103.json",
+  "run_s104.json",
+  "run_s105.json",
+  "run_s106.json",
+  "run_s107.json",
+  "run_s108.json",
+  "run_s109.json",
+  "run_s110.json",
+  "run_s111.json",
+  "run_s112.json"
+ ],
+ "scomposizione": {
+  "esposizione": 29.98,
+  "bilico": 0.249775,
+  "accoppiamento_quota_ragionamento": 0.44828921217818096,
+  "sigma_analitica": 0.015323592685973029
+ }
+}

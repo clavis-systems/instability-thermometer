@@ -1,0 +1,22 @@
+Termometro, fase 2 a 3 numeri: PREMESSA_FASE2_3NUMERI.md CONGELATA il 22/10/2026 22:28 (ora italiana), prima di
+qualunque dato con compiti a 3 numeri. Commit di congelamento: quello che aggiunge questo file (genitore 75763fa).
+Autorizzazione: Emanuele, 22/10 19:34 (q05) e 22:02 (olmo1; smol17 se si ferma a G1), prima di ogni risultato di smol17.
+Revisioni: Codex revisioni/codex_3numeri.md (pronto dopo correzioni, applicate) e codex_3numeri_2.md (pronto).
+Resta valido FASE2_CONGELATA.txt (commit 4a30469): termometro.py, countdown.py, analisi e soglie non cambiano.
+Comprende la deviazione tecnica D2 di smol17 (DEVIAZIONI_FASE2.md: scarico senza onnx/).
+
+File congelati (sha256 del contenuto in git, a capo LF):
+8a0825e864f62f5ae1c5647366d115e0a1bb64bf0ca263e75561979f8b30c558  PREMESSA_FASE2_3NUMERI.md
+0a1881d9ace7f8c91a44ef1f8d80bf5e3cb4ed8dd12506b1e964b855a93f3d62  fase2_3numeri.py
+94edb29c4a89db66c47cc36e37d69acfef0ef6e9a0e10ca80a6b365be5eba373  DEVIAZIONI_FASE2.md
+855e56657d77cd992268bd7d22a7ef552cfe0f295314833c5c516520ab7c58c0  kaggle/crea_notebook_3numeri.py
+96fe181d6146cc09f96500e3ed20965823563bb4a1f7690b7cd740381465c499  kaggle/MANIFEST_3NUMERI.txt
+955ab360842fe20c29da883812a97ecf28032b86940bd15e46a84c1b13a4bd24  kaggle/deviazione_smol17_onnx.py
+04dfb9b860226f31541f31dca4cf1faaea02ba46fc5ff8a77bfe27114290603e  kaggle/fase2_A_smol17_d2.ipynb
+c6e78b3437caab61118059add5be0a81760d299ffe978ff258bb5534bd21c7bb  kaggle/fase2_B_smol17_d2.ipynb
+38cc933099c19d7e759afa453012426e4465010f52154b66dd189303bf5793d8  kaggle/fase2_A_q05_3n.ipynb
+cf94be392718854f4c8858f552224ca08a2a9564ca2e3807a09132a1b4f04632  kaggle/fase2_B_q05_3n.ipynb
+e57b6a9df63af7f780f499ae16c3579388ff49b383786cacc990ac41b99815c6  kaggle/fase2_A_olmo1_3n.ipynb
+55d951ca1961bcff947188cf7fe0596a25a011ad288c30b58316b592122eab54  kaggle/fase2_B_olmo1_3n.ipynb
+3bbb84f9da8df368a0c73be0aed5de4c881c7369657401f668a506af5ed4c91e  kaggle/fase2_A_smol17_3n.ipynb
+31beb3beba9c8b1728be290ecf7110b3b2fea9bce72e1e4ae63c21b4a6927f17  kaggle/fase2_B_smol17_3n.ipynb

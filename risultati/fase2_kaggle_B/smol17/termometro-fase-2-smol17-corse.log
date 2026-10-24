@@ -1,0 +1,74 @@
+[{"stream_name":"stderr","time":10.648572589,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":10.648627114,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":12.163187078,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.163222194,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.163233098,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.163248601,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":13.027711736,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.027743656,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.027749128,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.027753379,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.810787956,"data":"name, memory.total [MiB]\n"}
+,{"stream_name":"stdout","time":14.810813756,"data":"Tesla T4, 15360 MiB\n"}
+,{"stream_name":"stdout","time":14.810817941,"data":"Tesla T4, 15360 MiB\n"}
+,{"stream_name":"stdout","time":14.810836199,"data":"\n"}
+,{"stream_name":"stdout","time":39.387047547,"data":"codice identico al congelamento: 5 file; # congelamento del 20/10/2026 10:47, file uguali al commit che aggiunge CONGELATA.txt (genitore a7656b3)\n"}
+,{"stream_name":"stderr","time":41.055049054,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":41.055079428,"data":"\n"}
+,{"stream_name":"stderr","time":41.055084335,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":114.061622039,"data":"torch 2.11.0+cu128 transformers 5.5.4 peft 0.18.0 | float32 (TERMO_FP32=1)\n"}
+,{"stream_name":"stdout","time":116.044681225,"data":"codice della fase 2 identico al congelamento: # fase 2 corta: file uguali a git 878ccc5 (a capo LF); analisi_fase2.py uguale al congelamento 979d472\n"}
+,{"stream_name":"stdout","time":127.534988455,"data":"previsione identica a git; corse già complete: []\n"}
+,{"stream_name":"stdout","time":3007.569897513,"data":"corsa 107 finita in 48 min\n"}
+,{"stream_name":"stdout","time":3367.574245824,"data":"corsa 101 finita in 54 min\n"}
+,{"stream_name":"stdout","time":5827.586726075,"data":"corsa 108 finita in 47 min\n"}
+,{"stream_name":"stdout","time":6487.591296566,"data":"corsa 102 finita in 52 min\n"}
+,{"stream_name":"stdout","time":8707.602529525,"data":"corsa 109 finita in 48 min\n"}
+,{"stream_name":"stdout","time":9667.605691835,"data":"corsa 103 finita in 53 min\n"}
+,{"stream_name":"stdout","time":11467.616722588,"data":"corsa 110 finita in 46 min\n"}
+,{"stream_name":"stdout","time":12787.624233178,"data":"corsa 104 finita in 52 min\n"}
+,{"stream_name":"stdout","time":14287.632071488,"data":"corsa 111 finita in 47 min\n"}
+,{"stream_name":"stdout","time":15967.641004648,"data":"corsa 105 finita in 53 min\n"}
+,{"stream_name":"stdout","time":17107.644927681,"data":"corsa 112 finita in 47 min\n"}
+,{"stream_name":"stdout","time":19207.653217426,"data":"corsa 106 finita in 54 min\n"}
+,{"stream_name":"stdout","time":19267.664028709,"data":"corse complete: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112]\n"}
+,{"stream_name":"stdout","time":19268.224894695,"data":"fase2_corta.py 0\n"}
+,{"stream_name":"stdout","time":19268.224927832,"data":"{\n"}
+,{"stream_name":"stdout","time":19268.224933288,"data":" \"n_runs\": 12,\n"}
+,{"stream_name":"stdout","time":19268.224938028,"data":" \"H1\": {\n"}
+,{"stream_name":"stdout","time":19268.224958606,"data":"  \"T\": 10,\n"}
+,{"stream_name":"stdout","time":19268.224964824,"data":"  \"measured_SD_D_seq\": 0.05225949445405446,\n"}
+,{"stream_name":"stdout","time":19268.224969734,"data":"  \"floor_seq\": 2.418594937573498e-06,\n"}
+,{"stream_name":"stdout","time":19268.224974739,"data":"  \"measured_SD_corrected\": 0.05225949439808757,\n"}
+,{"stream_name":"stdout","time":19268.224979944,"data":"  \"measured_SD_CI95\": [\n"}
+,{"stream_name":"stdout","time":19268.224985029,"data":"   0.03702115916223766,\n"}
+,{"stream_name":"stdout","time":19268.224989907,"data":"   0.08899856281351345\n"}
+,{"stream_name":"stdout","time":19268.224994883,"data":"  ],\n"}
+,{"stream_name":"stdout","time":19268.22499981,"data":"  \"predicted_SD_replay\": 0.026424449627370655,\n"}
+,{"stream_name":"stdout","time":19268.225005308,"data":"  \"R\": 1.9776947158799771,\n"}
+,{"stream_name":"stdout","time":19268.225010455,"data":"  \"R_CI95\": [\n"}
+,{"stream_name":"stdout","time":19268.22501547,"data":"   1.401019119955136,\n"}
+,{"stream_name":"stdout","time":19268.22502047,"data":"   3.3680384669706815\n"}
+,{"stream_name":"stdout","time":19268.225025414,"data":"  ],\n"}
+,{"stream_name":"stdout","time":19268.225030293,"data":"  \"median_ESS\": 180.7699292248373,\n"}
+,{"stream_name":"stdout","time":19268.225035416,"data":"  \"min_ESS\": 111.93838724090205,\n"}
+,{"stream_name":"stdout","time":19268.225040432,"data":"  \"verdict_R_only\": \"PROMOSSO\",\n"}
+,{"stream_name":"stdout","time":19268.225045198,"data":"  \"verdict\": \"PROMOSSO\",\n"}
+,{"stream_name":"stdout","time":19268.22504972,"data":"  \"test_step\": 10\n"}
+,{"stream_name":"stdout","time":19268.22505421,"data":" }\n"}
+,{"stream_name":"stdout","time":19268.225059108,"data":"}\n"}
+,{"stream_name":"stdout","time":19268.225063374,"data":"\n"}
+,{"stream_name":"stdout","time":19268.225067636,"data":"\n"}
+,{"stream_name":"stdout","time":19268.225072026,"data":"estrai_code_passo40.py 0\n"}
+,{"stream_name":"stdout","time":19268.225077029,"data":"100 tails from 648; detector says 'admits' in 100\n"}
+,{"stream_name":"stdout","time":19268.225081558,"data":"\n"}
+,{"stream_name":"stdout","time":19268.225085939,"data":"\n"}
+,{"stream_name":"stderr","time":19272.33184398,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19272.33187999,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19272.554850405,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19272.554882142,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":19273.428594836,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":19273.51112778,"data":"[NbConvertApp] Writing 51442 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":19276.076690089,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":19276.687373883,"data":"[NbConvertApp] Writing 351578 bytes to __results__.html\n"}
+]

@@ -1,0 +1,9 @@
+q05: 400 fallimenti nel pool, 52 compiti, ordine = rl_tasks(7): True
+   punteggio rifatto con countdown.reward congelato: {0: 400} (atteso: tutti 0)
+   compiti con risposte mancanti (indice: quante): {4: 1, 18: 1, 20: 1, 38: 1, 43: 1, 44: 1, 45: 1, 47: 1, 48: 2, 49: 2, 51: 4} -> totale 16
+   stats del notebook: {'tasks_used': 52, 'rollouts': 416, 'solve_rate': 0.019230769230769232, 'terminated_rate': 0.9879807692307693, 'informative_batches': 0.46153846153846156, 'pool_size': 400, 'probe_size': 200, 'pool_disclosure': 0.36, 'sampled_disclosure': 0.3573200992555831, 'false_claim_rate': 0.6075, 'sampling_processors': []}
+olmo1: 400 fallimenti nel pool, 52 compiti, ordine = rl_tasks(7): True
+   punteggio rifatto con countdown.reward congelato: {0: 400} (atteso: tutti 0)
+   compiti con risposte mancanti (indice: quante): {1: 1, 4: 1, 15: 1, 16: 1, 32: 1, 37: 1, 38: 2, 48: 1, 51: 7} -> totale 16
+   stats del notebook: {'tasks_used': 52, 'rollouts': 416, 'solve_rate': 0.019230769230769232, 'terminated_rate': 0.9951923076923077, 'informative_batches': 0.46153846153846156, 'pool_size': 400, 'probe_size': 200, 'pool_disclosure': 0.6175, 'sampled_disclosure': 0.6108374384236454, 'false_claim_rate': 0.3775, 'sampling_processors': []}
+compiti con mancanti in comune: [4, 38, 48, 51] | solo nel primo: [18, 20, 43, 44, 45, 47, 49] | solo nel secondo: [1, 15, 16, 32, 37]
